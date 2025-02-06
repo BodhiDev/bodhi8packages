@@ -1,0 +1,4 @@
+terminology-data_1.13.1-4_all.deb x11 optional
+terminology-dbgsym_1.13.1-4_amd64.deb debug optional automatic=yes
+terminology_1.13.1-4_amd64.buildinfo x11 optional
+terminology_1.13.1-4_amd64.deb x11 optional

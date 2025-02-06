@@ -1,0 +1,61 @@
+desktop file has been altered to add action New window. This is not in patches and trying to get merged upstream
+bodhi.png provided by bodhi-skel package
+
+terminology: spelling-error-in-binary ambigous ambiguous 
+
+diff --git a/src/bin/termptyesc.c b/src/bin/termptyesc.c
+index 4874ab8b..018deda6 100644
+--- a/src/bin/termptyesc.c
++++ b/src/bin/termptyesc.c
+@@ -541,7 +541,7 @@ _handle_esc_csi_reset_mode(Termpty *ty, Eina_Unicode cc, Eina_Unicode *b,
+                    ty->bracketed_paste = mode;
+                    break;
+                 case 7700: // ignore
+-                   WRN("TODO: ambigous width reporting %i", mode);
++                   WRN("TODO: ambiguous width reporting %i", mode);
+                    ty->decoding_error = EINA_TRUE;
+                    break;
+                 case 7727:
+
+
+
+ylee@debian:~/code$ lintian *.deb
+N:
+I: terminology-data: bash-term-in-posix-shell '. "$(dirname "$0")/utils.sh"' [usr/libexec/terminology/tests/da.sh:3]
+N: 
+N:   This script is marked as running under /bin/sh, but it seems to use a
+N:   feature found in bash but not in the SUSv3 or POSIX shell specification.
+N:   
+N:   Some examples are:
+N:   
+N:   == in a test, it should use = instead read without a variable in the
+N:   argument function to define a function source instead of . . command
+N:   args, passing arguments to commands via source is not supported -
+N:   {foo,bar} instead of foo bar [[ test ]] instead of [ test ] (requires a
+N:   Korn shell) type instead of which or command -v
+N: 
+N:   Visibility: info
+N:   Show-Always: no
+N:   Check: shell/non-posix/bash-centric
+
+- tests/da.sh
+- tests/dsr-cpr.sh
+- tests/esc_term_name_version.sh
+- tests/mouse_reporting_mode_all_ext_none.sh
+- tests/mouse_reporting_mode_all_ext_sgr.sh
+- tests/mouse_reporting_mode_all_ext_urxvt.sh
+- tests/mouse_reporting_mode_all_ext_utf8.sh
+- tests/mouse_reporting_mode_mouse_move_pressed_ext_none.sh
+- tests/mouse_reporting_mode_mouse_move_pressed_ext_sgr.sh
+- tests/mouse_reporting_mode_mouse_move_pressed_ext_urxvt.sh
+- tests/mouse_reporting_mode_mouse_move_pressed_ext_utf8.sh
+- tests/mouse_reporting_mode_normal_ext_none.sh
+- tests/mouse_reporting_mode_normal_ext_sgr.sh
+- tests/mouse_reporting_mode_normal_ext_urxvt.sh
+- tests/mouse_reporting_mode_normal_ext_utf8.sh
+- tests/mouse_reporting_mode_x10_ext_none.sh
+- tests/mouse_reporting_mode_x10_ext_sgr.sh
+- tests/mouse_reporting_mode_x10_ext_urxvt.sh
+- tests/mouse_reporting_mode_x10_ext_utf8.sh
+- tests/osc-11-query.sh
+- tests/run_tests.sh
