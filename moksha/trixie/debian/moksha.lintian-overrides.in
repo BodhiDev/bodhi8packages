@@ -1,0 +1,16 @@
+moksha: elevated-privileges
+moksha: executable-in-usr-lib
+moksha: no-manual-page
+moksha: non-empty-dependency_libs-in-la-file
+moksha: package-name-doesnt-match-sonames
+moksha: shared-library-lacks-prerequisites 
+moksha: shared-library-lacks-version
+moksha: lacks-unversioned-link-to-shared-library 
+moksha: library-not-linked-against-libc
+moksha: package-contains-documentation-outside-usr-share-doc
+# "Viet Nam"
+moksha: spelling-error-in-binary Nam Name [usr/lib/x86_64-linux-gnu/enlightenment/modules/conf_intl/linux-gnu-x86_64/module.so]
+moksha: hardening-no-fortify-functions
+moksha: no-symbols-control-file
+# todo
+moksha: exit-in-shared-library

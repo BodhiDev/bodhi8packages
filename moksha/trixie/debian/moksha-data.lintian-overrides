@@ -1,0 +1,3 @@
+moksha-data: desktop-command-not-in-package epulse [usr/share/applications/epulse.desktop]
+moksha-data: desktop-entry-lacks-keywords-entry [usr/share/xsessions/enlightenment.desktop]
+moksha-data: package-contains-empty-directory [usr/share/enlightenment/data/backgrounds/]
