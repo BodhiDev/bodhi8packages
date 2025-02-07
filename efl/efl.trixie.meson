@@ -1,0 +1,13 @@
+	-Dtslib=false \
+	-Dembedded-lz4=false \
+	-Dnetwork-backend=none \
+	-Dwl=false \
+	-Ddrm=false \
+	-Dbuild-tests=false \
+	-Dxpresent=true \
+	-Ddocs=true \
+	-Devas-loaders-disabler="['json']" \
+	-Dopengl=full \
+	 \
+	-Dfb=true \
+	-Delua=true -Dbindings="['lua', 'cxx']"
