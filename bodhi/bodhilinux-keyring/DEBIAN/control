@@ -1,0 +1,11 @@
+Package: bodhilinux-keyring
+Version: 2022.11.07
+Architecture: all
+Maintainer: Robert Wiley <ylee@bodhilinux.com>
+Installed-Size: 16
+Depends: gnupg (>= 1.0.6-4)
+Section: misc
+Priority: important
+Description: GnuPG key of the Bodhi Linux repository
+ The Bodhi Linux 7.X repository digitally signs its Release files. This package
+ contains the repository keys used for that.
