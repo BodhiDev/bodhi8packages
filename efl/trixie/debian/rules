@@ -63,7 +63,7 @@ endif
 		-Dbuild-tests=false \
 		-Dxpresent=true \
 		-Ddocs=true \
-		-Devas-loaders-disabler="['json', 'avif', 'jxl']" \
+		-Devas-loaders-disabler="['json']" \
 		-Dopengl=full \
 		$(arch_flags) \
 		$(fb_flags) \
