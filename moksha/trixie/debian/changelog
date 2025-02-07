@@ -26,6 +26,9 @@ moksha (0.4.1-19) unstable; urgency=low
   * Shot module use internal tools
   * Replace personal folder locations in e_test.c
   * EFM: minor cleanup of strings
+  * Adding a few selected backgrounds back
+  * Background2 Win bg themed
+  * Background2 theme name ellipsis fix
 
  -- Robert Wiley <ylee@bodhilinux.com>  Thu, 06 Feb 2025 08:17:53 -0500
 
