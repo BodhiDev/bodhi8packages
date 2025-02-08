@@ -1,2 +1,1 @@
-apturl-saf: no-manual-page
-apturl-saf: new-package-should-close-itp-bug
+apturl-saf: no-manual-page [usr/bin/apturl.synaptic]
