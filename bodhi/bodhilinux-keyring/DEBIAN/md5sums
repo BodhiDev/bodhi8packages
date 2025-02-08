@@ -1,0 +1,4 @@
+c74ea05afadb574a0a0eb19dd14557bb  usr/share/keyrings/bodhi-archive-keyring.gpg
+9f567bed142bd134d5ba02501762c2d9  usr/share/lintian/overrides/bodhilinux-keyring
+ecc8863bfd04cc54741676a4a29c423c  usr/share/doc/bodhilinux-keyring/changelog.gz
+d9f72fb15f7c542d90b591c876339915  usr/share/doc/bodhilinux-keyring/copyright
