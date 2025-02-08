@@ -1,1 +1,2 @@
-bodhi-quickstart: no-manual-page usr/bin/bodhi-help
+bodhi-quickstart: no-manual-page [usr/bin/bodhi-help]
+bodhi-quickstart: package-contains-documentation-outside-usr-share-doc
