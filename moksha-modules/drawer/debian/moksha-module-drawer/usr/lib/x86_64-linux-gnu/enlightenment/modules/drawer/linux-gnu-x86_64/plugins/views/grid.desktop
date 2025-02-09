@@ -1,0 +1,15 @@
+[Desktop Entry]
+Type=Link
+Name=Grid
+Name[ru]=Сетка
+Name[eo]=Krado
+Name[cs]=Tabulka
+Name[sk]=Mriežka
+Comment=A grid representation of elements
+Comment[ru]=Расположение элементов сеткой
+Comment[eo]=Krada prezentado de elementoj
+Comment[it]=Rappresentazione in griglia degli elementi
+Comment[cs]=Položky zobrazit v tabulce
+Comment[sk]=Položky zobraziť v mriežke
+
+X-Drawer-Title=grid

@@ -1,0 +1,15 @@
+[Desktop Entry]
+Type=Link
+Name=List
+Name[ru]=Список
+Name[eo]=Listo
+Name[cs]=Seznam
+Name[sk]=Zoznam
+Comment=A list representation of elements
+Comment[ru]=Расположение элементов списком
+Comment[eo]=Lista prezentado de elementoj
+Comment[it]=Rappresentazione ad elenco degli elementi
+Comment[cs]=Položky zobrazit v seznamu
+Comment[sk]=Položky zobraziť v zozname
+
+X-Drawer-Title=list
