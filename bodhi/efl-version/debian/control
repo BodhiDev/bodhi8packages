@@ -1,0 +1,18 @@
+Source: efl-version
+Section: utils
+Priority: optional
+Maintainer: Robert (ylee) Wiley <ylee@bodhilinux.com>
+Build-Depends: libc6, libefl-dev
+Standards-Version: 4.5.0
+Homepage: https://github.com/BodhiDev/Moksha-dev 
+Rules-Requires-Root: no
+
+Package: efl-version
+Architecture: any
+Section: utils
+Priority: optional
+Depends: ${shlibs:Depends}
+Description: Bodhi Linux utility function
+ A simple utility to print the version of the EFL.
+ .
+ This simple utility is used by scripts included with Bodhi.
