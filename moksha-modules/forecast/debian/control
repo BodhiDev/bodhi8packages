@@ -1,0 +1,17 @@
+Source: moksha-module-forecast
+Section: utils
+Priority: optional
+Maintainer: Robert Wiley <ylee@bodhilinux.com>
+Build-Depends: debhelper (>= 10), libc6 (>= 2.4), meson, pkg-config, libefl-dev, libtool, intltool, moksha-dev, libjson-c-dev
+Standards-Version: 4.1.2
+Homepage: https://github.com/BodhiDev/Forecast2.0
+Rules-Requires-Root: no
+
+Package: moksha-module-forecast
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, moksha
+Description: Forecasts Module Moksha
+ Weather updates on your desktop! 
+ .
+ A simple forecast Module for the Moksha Desktop.It is a refactoring of 
+ the old e17 forecast module.
