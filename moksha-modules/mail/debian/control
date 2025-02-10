@@ -1,0 +1,17 @@
+Source: moksha-module-mail
+Section: utils
+Priority: optional
+Maintainer: Robert (ylee) Wiley <ylee@bodhilinux.com>
+Build-Depends: debhelper (>= 10), libc6 (>= 2.4), meson, pkg-config, libtool, intltool, libefl-dev, libefl-dev, moksha-dev
+Standards-Version: 4.5.0
+Homepage: https://github.com/JeffHoogland/moksha-modules-extra
+Rules-Requires-Root: no
+
+Package: moksha-module-mail
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, moksha
+Description: mail module for the Moksha desktop
+ Mail monitor for the Moksha desktop
+ .
+ Moksha port of an old e17 module.
+ 
