@@ -1,0 +1,17 @@
+Source: moksha-module-deskshow
+Section: utils
+Priority: optional
+Maintainer: Robert (ylee) Wiley <ylee@bodhilinux.com>
+Build-Depends: debhelper (>= 10), libc6 (>= 2.4), meson, pkg-config, libtool, intltool, moksha-dev
+Standards-Version: 4.5.0
+Homepage: https://github.com/JeffHoogland/moksha-modules-extra
+Rules-Requires-Root: no
+
+Package: moksha-module-deskshow
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, moksha
+Description: Deskshow Module
+ A module to show the desktop for Moksha.
+ .
+ This module allows you to place a gadget on your shelf or desktop to allow 
+ you to quickly show your desktop.
