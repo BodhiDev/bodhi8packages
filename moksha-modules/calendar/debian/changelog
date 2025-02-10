@@ -1,0 +1,33 @@
+moksha-module-calendar (0.1.1-5) jammy; urgency=medium
+
+  * Meson Build added
+  * Locale issue Fixed
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Wed, 06 Nov 2024 06:29:46 -0500
+
+moksha-module-calendar (0.1.1-4) jammy; urgency=medium
+
+  * GCC warnings addressed
+  * Menu memory ownership fix
+  * Use PATH_MAX for actual paths
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Wed, 03 Apr 2024 12:38:55 -0400
+
+moksha-module-calendar (0.1.1-3) jammy; urgency=medium
+
+  * Belarusian translation
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Thu, 06 Jul 2023 18:52:42 -0400
+
+moksha-module-calendar (0.1.1-2) focal; urgency=medium
+
+  * pt localization
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Sat, 29 May 2021 16:42:00 -0400
+
+moksha-module-calendar (0.1.1-1) focal; urgency=medium
+
+  * Initial release
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Sat, 12 Dec 2020 08:16:15 +0400
+
