@@ -1,0 +1,37 @@
+moksha-module-net (0.1.1-6) jammy; urgency=medium
+
+  * Meson build
+  * Local issue fixed
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Thu, 16 Jan 2025 07:21:38 -0500
+
+moksha-module-net (0.1.1-5) jammy; urgency=medium
+
+  * GCC warnings addressed
+  * Menu memory ownership fix
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Wed, 03 Apr 2024 12:38:55 -0400
+
+moksha-module-net (0.1.1-4) jammy; urgency=medium
+
+  * Belarusian localization
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Sun, 09 Jul 2023 17:19:19 -0400
+
+moksha-module-net (0.1.1-3) focal; urgency=medium
+
+  * gadcon aspect changed
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Fri, 17 Sep 2021 09:56:08 -0400
+
+moksha-module-net (0.1.1-2) focal; urgency=medium
+
+  * pt localization
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Sat, 29 May 2021 16:42:00 -0400
+
+moksha-module-net (0.1.1-1) focal; urgency=medium
+
+  * Initial release
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Sun, 04 Oct 2020 08:16:15 +0400
