@@ -1,0 +1,16 @@
+Source: moksha-module-flame
+Section: utils
+Priority: optional
+Maintainer: Robert Wiley <ylee@bodhilinux.com>
+Build-Depends: debhelper (>= 10), libc6 (>= 2.4), meson, pkg-config, libtool, intltool, libefl-dev, moksha-dev
+Standards-Version: 4.1.2
+Homepage: https://github.com/JeffHoogland/moksha-modules-extra
+Rules-Requires-Root: no
+
+Package: moksha-module-flame
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, moksha
+Description: Flame Module for Moksha
+ Adds hot fire to your Moksha desktop.
+ .
+ Load the module to display flames on the desktop.
