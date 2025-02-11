@@ -1,0 +1,17 @@
+Source: moksha-module-wincontrol
+Section: utils
+Priority: optional
+Maintainer: Robert (ylee) Wiley <ylee@bodhilinux.com>
+Build-Depends: debhelper (>= 10), libc6 (>= 2.4), meson, pkg-config, libtool, intltool, libefl-dev, moksha-dev
+Standards-Version: 4.5.0
+Homepage: https://github.com/thewaiter/wincontrol
+Rules-Requires-Root: no
+
+Package: moksha-module-wincontrol
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, moksha
+Description:  Wincontrol Module for Moksha
+ Wincontrol is a Moksha module for easy window control from a shelf or desktop.
+ .
+ Add a gadget to your self to quickly close the focused window. This module is
+ a Moksha Port of a classic e17 module.
