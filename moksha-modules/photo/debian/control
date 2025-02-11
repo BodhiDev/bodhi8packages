@@ -1,0 +1,16 @@
+Source: moksha-module-photo
+Section: utils
+Priority: optional
+Maintainer: Robert (ylee) Wiley <ylee@bodhilinux.com>
+Build-Depends: debhelper (>= 10), libc6 (>= 2.4), meson, pkg-config, libtool, intltool, libefl-dev, moksha-dev
+Standards-Version: 4.5.0
+Homepage:https://github.com/JeffHoogland/moksha-modules-extra
+Rules-Requires-Root: no
+
+Package: moksha-module-photo
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, moksha
+Description: Photo module for Moksha
+ View photos or a mini-slideshow on your Moksha Desktop.
+ .
+ A Moksha port of the old e17 module. Enjoy the Fun!
