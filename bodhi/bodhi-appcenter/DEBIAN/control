@@ -1,0 +1,11 @@
+Package: bodhi-appcenter
+Version: 0.2.6-5
+Section: misc
+Priority: optional
+Recommends: x-www-browser
+Architecture: all
+Maintainer: Robert Wiley <ylee@bodhilinux.com>
+Description: Bodhi AppCenter Launcher
+ A menu entry that opens the Bodhi AppCenter.
+ .
+ The AppCenter opens in the web-browers set by x-www-browser.
