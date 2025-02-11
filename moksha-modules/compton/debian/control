@@ -1,0 +1,18 @@
+Source: moksha-module-compton
+Section: utils
+Priority: optional
+Maintainer: Robert (ylee) Wiley <ylee@bodhilinux.com>
+Build-Depends: debhelper (>= 10),  libc6 (>= 2.4), meson, pkg-config, libtool, intltool, libefl-dev, moksha-dev
+Standards-Version: 4.5.0
+Homepage: https://github.com/thewaiter/comptonmod
+Rules-Requires-Root: no
+
+Package: moksha-module-compton
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, picom, moksha
+Description: Compton module for Moksha desktop
+ The Compton module restores compositing to the Moksha desktop using Picom.
+ .
+ Native e17 composting was removed because it was buggy and old video cards do
+ not support it. Picom is a fork of Compton and for historical reasons this
+ module is called the Compton module.

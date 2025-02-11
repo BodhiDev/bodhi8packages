@@ -1,0 +1,30 @@
+moksha-module-compton (0.1.1-6) jammy; urgency=medium
+
+  * GLX backend for better results
+  * compton.conf -> picom.conf
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Sat, 27 Apr 2024 17:09:45 -0400
+
+moksha-module-compton (0.1.1-5) jammy; urgency=medium
+
+  * Gcc warnings addressed
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Wed, 03 Apr 2024 12:38:55 -0400
+
+moksha-module-compton (0.1.1-4) jammy; urgency=medium
+
+  * Belarusian and russian localization
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Tue, 04 Jul 2023 14:32:35 -0400
+
+moksha-module-compton (0.1.1-3) focal; urgency=medium
+
+  * Use config home for picom.conf
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Sun, 07 Aug 2022 09:01:57 -0400
+
+moksha-module-compton (0.1.1-1) focal; urgency=medium
+
+  * Initial release
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Wed, 09 Dec 2020 08:16:15 +0400
