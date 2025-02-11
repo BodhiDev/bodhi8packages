@@ -1,0 +1,51 @@
+moksha-module-screenshot (0.1.1-9) jammy; urgency=low
+
+  * Meson Build added
+  * Locale Problem fixed
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Sat, 18 Jan 2025 12:59:10 -0500
+
+moksha-module-screenshot (0.1.1-8) jammy; urgency=low
+
+  * GCC warnings addressed
+  * Menu memory ownership fix
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Wed, 03 Apr 2024 12:38:55 -0400
+
+moksha-module-screenshot (0.1.1-7) jammy; urgency=low
+
+  * Belarusian translation for module.desktop.in
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Sun, 02 Jul 2023 16:28:18 -0400
+
+moksha-module-screenshot (0.1.1-6) jammy; urgency=low
+
+  * Belarusian translation added
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Sat, 01 Jul 2023 03:07:47 -0400
+
+moksha-module-screenshot (0.1.1-5) jammy; urgency=medium
+
+  * Screenshot freeze and thaw timer added
+  * Screenshot: task module icon fix
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Thu, 22 Sep 2022 14:06:43 -0400
+
+moksha-module-screenshot (0.1.1-4) focal; urgency=medium
+
+  * pt localization
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Sat, 29 May 2021 16:42:00 -0400
+
+moksha-module-screenshot (0.1.1-3) focal; urgency=medium
+
+  * EDC fix
+  * Missing depends
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Tue, 22 Dec 2020 10:20:19 +0400
+
+moksha-module-screenshot (0.1.1-1) focal; urgency=medium
+
+  * Initial release
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Sun, 04 Oct 2020 08:16:15 +0400
