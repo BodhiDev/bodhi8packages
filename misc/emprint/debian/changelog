@@ -1,0 +1,18 @@
+emprint (0.1.1-3) jammy; urgency=medium
+
+  * Region mode - band eliminated from shot
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Wed, 24 Jul 2024 14:21:47 -0400
+
+emprint (0.1.1-2) jammy; urgency=medium
+
+  * Screenshot camera sound fix
+  * Emprint: ESC can not exit region mode with 0 delay value
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Thu, 22 Sep 2022 14:06:43 -0400
+
+emprint (0.1.1-1) focal; urgency=medium
+
+  * Initial release
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Sun, 04 Oct 2020 08:16:15 +0400
