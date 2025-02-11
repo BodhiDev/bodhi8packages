@@ -1,0 +1,16 @@
+Source: moksha-module-trash
+Section: utils
+Priority: optional
+Maintainer: Robert Wiley <ylee@bodhilinux.com>
+Build-Depends: debhelper (>= 10), cdbs, libc6 (>= 2.4), meson, pkg-config, libtool, intltool, libefl-dev, moksha
+Standards-Version: 4.5.0
+Homepage: https://github.com/JeffHoogland/moksha-modules-extra
+Rules-Requires-Root: no
+
+Package: moksha-module-trash
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, moksha
+Description: Trash module for Moksha desktop
+ A trash module for Mokhsa that uses efreet.
+ .
+ Loading the module allows access the trash can on the desktop.
