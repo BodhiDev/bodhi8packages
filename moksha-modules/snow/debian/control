@@ -1,0 +1,16 @@
+Source: moksha-module-snow 
+Section: utils
+Priority: optional
+Maintainer: Jeff Hoogland <jeffhoogland@linux.com>
+Build-Depends: debhelper (>= 10), libc6 (>= 2.4), meson, pkg-config, libtool, intltool, libefl-dev, moksha-dev
+Standards-Version: 4.1.2
+Homepage: https://github.com/JeffHoogland/moksha-modules-extra
+Rules-Requires-Root: no
+
+Package: moksha-module-snow 
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, moksha
+Description: Snow module for Moksha
+ Adds snow to your Moksha desktop.
+ .
+ Load the module to enable a snowy desktop.
