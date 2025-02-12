@@ -3,7 +3,8 @@ Upstream-Name: moon
 Source: https://github.com/rbtylee/moksha-moon-module
 
 Files: *
-Copyright: 2024 Bodhi Linux <moksha@bodhilinux.com>
+Copyright: David Stevenson <david.35472@gmail.com>, original dev
+           2024-2025 Bodhi Linux <moksha@bodhilinux.com>
 License: Expat-custom
  Permission is hereby granted, free of charge, to any person obtaining a copy of
  this software and associated documentation files (the "Software"), to deal in
@@ -38,7 +39,7 @@ License: Expat-custom
  WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 Files: debian/*
-Copyright: 2024 Robert Wiley <ylee@bodhilinux.com>
+Copyright: 2025 Robert Wiley <ylee@bodhilinux.com>
 License: GPL-3.0+
 
 License: GPL-3.0+
