@@ -1,5 +1,5 @@
 #!/bin/bash
-# Copyright 2021 ylee@bodhilinux.com
+# Copyright 2021, 2025 ylee@bodhilinux.com
 # 
 # This work is free. You can redistribute it and/or modify it under the
 # terms of the Do What The Fuck You Want To Public License, Version 2,
@@ -148,7 +148,7 @@ parse_commandline()
         echo "Do What The Fuck You Want To Public License, Version 2"
         echo "See http://www.wtfpl.net/ for more details."
         echo -e "\nTHIS SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESSED OR IMPLIED\n"
-        echo "Copyright 2021 Bodhi Linux, https://www.bodhilinux.com"
+        echo "Copyright 2025 Bodhi Linux, https://www.bodhilinux.com"
         exit 0
         ;;
       -v|--version)
