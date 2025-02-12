@@ -68,7 +68,7 @@ if [[ "$DESKTOP" == *"Enlightenment"* ]] || [[ "$DESKTOP" == *"Moksha"* ]]; then
 	# Needs Modules/System/DBus Extension loaded to work
 	enlightenment_remote -module-load msgbus
 	enlightenment_remote -module-enable msgbus
-	OUTPUT_DIR="$HOME/.e/e/backgrounds"
+	OUTPUT_DIR="$E_HOME_DIR/e/backgrounds"
 
 	TEMPLATE='
 	images { image: "@IMAGE@" LOSSY 90; }
