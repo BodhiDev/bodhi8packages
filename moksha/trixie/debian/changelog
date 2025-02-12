@@ -29,8 +29,10 @@ moksha (0.4.1-19) unstable; urgency=low
   * Adding a few selected backgrounds back
   * Background2 Win bg themed
   * Background2 theme name ellipsis fix
+  * Added e-menu back
+  * Add compile option to force use of moksha-menu
 
- -- Robert Wiley <ylee@bodhilinux.com>  Thu, 06 Feb 2025 08:17:53 -0500
+ -- Robert Wiley <ylee@bodhilinux.com>  Tue, 11 Feb 2025 10:29:39 -0500
 
 moksha (0.4.1-18) jammy; urgency=low
 

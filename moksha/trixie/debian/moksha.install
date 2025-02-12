@@ -1,4 +1,3 @@
-etc/enlightenment/sysactions.conf
 usr/bin/*
 usr/lib/*/enlightenment/modules/*
 usr/lib/*/enlightenment/utils/enlightenment_*
