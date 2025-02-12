@@ -16,7 +16,7 @@ if [[ "$DESKTOP" == *"Enlightenment"* ]] || [[ "$DESKTOP" == *"Moksha"* ]]; then
 		exit 1
 	fi
 
-	start_path="/home/$USER/.e/e/applications/startup/startupcommands"
+	start_path="$E_HOME_DIR/e/applications/startup/startupcommands"
 	keyboard="/etc/default/keyboard"
 	us='"us"'
 
