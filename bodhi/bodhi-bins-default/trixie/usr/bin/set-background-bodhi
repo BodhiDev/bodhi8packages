@@ -57,7 +57,7 @@ fi
 #          e supports images and videos and prob formats moksha does not
 #   this code can be fooled but should be accurate enough for our purposes
 #   see https://unix.stackexchange.com/questions/189364/script-to-determine-if-files-are-images
-if ! file "$WP" |grep -qE 'image|bitmap'; then
+if ! file "$WP" |grep -qE 'image|bitmap|JPEG|AVIF'; then
 	echo "File '$WP' is not an image!!"
 	exit 1
 fi
