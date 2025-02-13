@@ -1,0 +1,5 @@
+debian-system-adjustments: systemd-service-file-missing-documentation-key [usr/lib/systemd/system/debian-system-adjustments.service]
+# can't seem to override this one
+debian-system-adjustments: udev-rule-in-etc [etc/udev/rules.d/61-debian-system-adjustments-polling.rules]
+debian-system-adjustments: udev-rule-in-etc [etc/udev/rules.d/80-local.rules]
+debian-system-adjustments: maintainer-script-calls-systemctl [postinst:25]

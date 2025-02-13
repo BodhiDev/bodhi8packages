@@ -1,0 +1,13 @@
+Package: debian-system-adjustments
+Version: 2025.12.02
+Architecture: all
+Maintainer: Robert Wiley <ylee@bodhilinux.com>
+Depends: libglib2.0-bin, python3
+Recommends: bodhi-info-moksha
+Section: admin
+Priority: optional
+Description: System adjustments for Bodhi
+ Adjustments made to the Debian base specific to Bodhi Linux.
+ .
+ This package adjust grub to display Bodhi instead of Debian as well as has
+ two udev rules and more.
