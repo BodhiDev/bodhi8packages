@@ -1,0 +1,6 @@
+RELEASE=7.0
+CODENAME="lila"
+EDITION="Moksha"
+DESCRIPTION="Bodhi Linux 8.0"
+DESKTOP=Moksha
+GRUB_TITLE=Bodhi 8.0 Debian
