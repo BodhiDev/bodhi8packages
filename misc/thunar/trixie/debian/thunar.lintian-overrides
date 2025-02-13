@@ -1,0 +1,2 @@
+thunar: copyright-refers-to-symlink-license usr/share/common-licenses/GPL
+thunar: executable-in-usr-lib [usr/lib/x86_64-linux-gnu/Thunar/thunar-sendto-email]
