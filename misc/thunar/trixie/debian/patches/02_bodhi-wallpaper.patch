@@ -22,7 +22,18 @@ diff a/plugins/thunar-wallpaper/twp-provider.c b/plugins/thunar-wallpaper/twp-pr
  }
  
  
-@@ -311,6 +318,21 @@
+@@ -149,7 +156,9 @@
+               && (thunarx_file_info_has_mime_type (files->data, "image/jpeg")
+                   || thunarx_file_info_has_mime_type (files->data, "image/png")
+                   || thunarx_file_info_has_mime_type (files->data, "image/svg+xml")
+-                  || thunarx_file_info_has_mime_type (files->data, "image/svg+xml-compressed")))
++                  || thunarx_file_info_has_mime_type (files->data, "image/svg+xml-compressed")
++                  || thunarx_file_info_has_mime_type (files->data, "image/jxl")
++                  || thunarx_file_info_has_mime_type (files->data, "image/avif")))
+             {
+               item = thunarx_menu_item_new ("Twp::setwallpaper", _("Set as wallpaper"), NULL, "preferences-desktop-wallpaper");
+               g_signal_connect (item, "activate", G_CALLBACK (twp_action_set_wallpaper), files->data);
+@@ -311,6 +320,21 @@
            g_warning ("Failed to set wallpaper: Missing executable 'gsettings'");
          }
      }
@@ -30,11 +41,11 @@ diff a/plugins/thunar-wallpaper/twp-provider.c b/plugins/thunar-wallpaper/twp-pr
 +   {
 +     if (_has_setbg_bodhi)
 +      {
-+	    g_debug ("set on enlightenment");
-+	    command = g_strdup_printf ("set-background-bodhi "
-+							"'%s'", file_name);
-+	    g_spawn_command_line_async (command, NULL);
-+	    g_free (command);
++            g_debug ("set on enlightenment");
++            command = g_strdup_printf ("set-background-bodhi "
++                                                        "'%s'", file_name);
++            g_spawn_command_line_async (command, NULL);
++            g_free (command);
 +     }
 +    else
 +     {
