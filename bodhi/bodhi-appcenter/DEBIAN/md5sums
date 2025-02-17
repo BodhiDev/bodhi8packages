@@ -1,5 +1,5 @@
 8de8341c1520db2603491797a6825970  usr/share/applications/bodhi-appcenter.desktop
 237c5150c0b2ff81033b33178f322d05  usr/share/doc/bodhi-appcenter/changelog.Debian.gz
-b198b08bc5a61235137b90ae5e753a0f  usr/share/doc/bodhi-appcenter/copyright
+237c5150c0b2ff81033b33178f322d05  usr/share/doc/bodhi-appcenter/copyright
 10e1e7827ba21abe820414cbbceeb498  usr/share/icons/hicolor/128x128/apps/system-software-install.png
-fd69b80a5dc36e9e712a9df634fc8f55  usr/share/lintian/overrides/bodhi-appcenter
+e6980f56e746dc092f43f583dbcbeaf1  usr/share/lintian/overrides/bodhi-appcenter
