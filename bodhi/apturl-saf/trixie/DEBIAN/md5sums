@@ -22,5 +22,5 @@ fe4b388bea88ef6768ea45c15a927c52  usr/share/bodhi/apturl/pl
 b0b47905fba18ec7b597560aec1466d1  usr/share/bodhi/apturl/uk
 c967addcbd6f38cad10e5332f8d1cdf9  usr/share/doc/apturl-saf/changelog.Debian.gz
 cd029d923992c6815074a10dd6b730cd  usr/share/doc/apturl-saf/copyright
-331f0a78d6e768ef2bdebaf98636a908  usr/share/lintian/overrides/apturl-saf
+cf88409a248c729d6878efed6365b25c  usr/share/lintian/overrides/apturl-saf
 b6e99dacf894fb07363f1ef1f14ea472  usr/share/man/man8/apturl.8.gz
