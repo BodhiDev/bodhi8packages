@@ -31,8 +31,12 @@ moksha (0.4.1-19) unstable; urgency=low
   * Background2 theme name ellipsis fix
   * Added e-menu back
   * Add compile option to force use of moksha-menu
+  * MOKSHA_CORE_MODULES: update mod list and add missing commas
+  * Removed old e17 mod in MOKSHA_CORE_MODULES
+  * Separator and Wallscape mods added to the list of mods
+  * Theme: wallpaper duplicity fix
 
- -- Robert Wiley <ylee@bodhilinux.com>  Tue, 11 Feb 2025 10:29:39 -0500
+ -- Robert Wiley <ylee@bodhilinux.com>  Sun, 23 Feb 2025 10:39:16 -0500
 
 moksha (0.4.1-18) jammy; urgency=low
 
