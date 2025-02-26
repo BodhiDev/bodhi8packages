@@ -1,0 +1,3 @@
+shlibs:Depends=edi (>= 0.8.99), libc6 (>= 2.34), libclang1-19 (>= 1:5.0~svn298832-1~), libefl (>= 1.25.1)
+misc:Depends=
+misc:Pre-Depends=

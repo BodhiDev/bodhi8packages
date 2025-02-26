@@ -1,0 +1,6 @@
+edi: no-manual-page
+edi: link-to-shared-library-in-wrong-package
+edi: package-name-doesnt-match-sonames libedi0
+edi: extra-license-file
+edi: hardening-no-fortify-functions
+edi: no-symbols-control-file
