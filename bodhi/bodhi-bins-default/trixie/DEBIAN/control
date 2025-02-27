@@ -3,7 +3,7 @@ Version: 0.0.1-5
 Section: utils
 Priority: optional
 Maintainer: Robert (ylee) Wiley <ylee@bodhilinux.com>
-Depends: efl-version | libefl-dev, elaptopcheck, evas-image-dim, x11-xserver-utils
+Depends: efl-version | libefl-dev, bodhi-startup, evas-image-dim, x11-xserver-utils
 Architecture: all
 Homepage: https://www.bodhilinux.com/
 Description: Useful Utilities for Bodhi
