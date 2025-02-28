@@ -16,7 +16,7 @@ if [[ "$DESKTOP" == *"Enlightenment"* ]] || [[ "$DESKTOP" == *"Moksha"* ]]; then
 		exit 1
 	fi
 
-	start_path="$E_HOME_DIR/e/applications/startup/startupcommands"
+	start_path="$E_HOME_DIR/applications/startup/startupcommands"
 	keyboard="/etc/default/keyboard"
 	us='"us"'
 
@@ -37,7 +37,7 @@ if [[ "$DESKTOP" == *"Enlightenment"* ]] || [[ "$DESKTOP" == *"Moksha"* ]]; then
 	fi
 	if [ -f "$start_path" ]; then
 		if [[ -n "$E_RESTART" ]]; then
-			sed -i 's/elaptopcheck//g' "$start_path"
+			sed -i 's//usr/share/bodhi/distro/startupcommands//g' "$start_path"
 		fi
 	fi
 else
