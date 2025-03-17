@@ -1,0 +1,65 @@
+Description: silence EFL 
+ EFL warnings and messages make debugging rather hard and may end up in system logs.
+Author: Robert Wiley <ylee@bodhilinux.com>
+Origin: other
+Forwarded: not-needed
+Last-Update: 2025-02-05
+---
+This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
+--- a/src/lib/ecore/ecore_anim.c
++++ b/src/lib/ecore/ecore_anim.c
+@@ -222,10 +222,10 @@ _timer_tick_core(void *data EINA_UNUSED, Ecore_Thread *thread)
+                   ret = epoll_wait(pollfd, pollincoming, 2, 200);
+                   t_out = ecore_time_get();
+                   t_gap = t_out - t0;
+-                  if (t_gap > (ft * 2.0))
++                  /*if (t_gap > (ft * 2.0))
+                     fprintf(stderr,
+                             "ERROR: ecore_animator thread - epoll_wait(..., 200) at %1.5f should have slept ~ %1.5fs but took %1.5fs!\n",
+-                            t0, ft, t_out - t0);
++                            t0, ft, t_out - t0);*/
+                }
+              else
+                {
+
+--- a/src/modules/ecore_evas/engines/x/ecore_evas_x.c
++++ b/src/modules/ecore_evas/engines/x/ecore_evas_x.c
+@@ -3966,8 +3966,10 @@ _ecore_evas_x_selection_notify(void *udata EINA_UNUSED, int type EINA_UNUSED, vo
+ 
+    ee = ecore_event_window_match(ev->win);
+    selection = _atom_to_selection(ev->atom);
+-   EINA_SAFETY_ON_FALSE_GOTO(!!ee, end);
+-   EINA_SAFETY_ON_FALSE_GOTO(selection != ECORE_EVAS_SELECTION_BUFFER_LAST, end);
++   //EINA_SAFETY_ON_FALSE_GOTO(!!ee, end);
++   if (!ee) goto end;
++   //EINA_SAFETY_ON_FALSE_GOTO(selection != ECORE_EVAS_SELECTION_BUFFER_LAST, end);
++   if (selection == ECORE_EVAS_SELECTION_BUFFER_LAST) goto end;
+    edata = ee->engine.data;
+ 
+    //if dnd drops above us, and even if we did not request anything, we are getting notified, refuse to do anything
+@@ -4008,8 +4010,10 @@ _ecore_evas_x_selection_clear(void *udata EINA_UNUSED, int type EINA_UNUSED, voi
+ 
+    ee = ecore_event_window_match(ev->win);
+    selection = _atom_to_selection(ev->atom);
+-   EINA_SAFETY_ON_FALSE_GOTO(ee, end);
+-   EINA_SAFETY_ON_FALSE_GOTO(selection != ECORE_EVAS_SELECTION_BUFFER_LAST, end);
++   //EINA_SAFETY_ON_FALSE_GOTO(ee, end);
++   if (!ee) goto end;
++   //EINA_SAFETY_ON_FALSE_GOTO(selection != ECORE_EVAS_SELECTION_BUFFER_LAST, end);
++   if (selection == ECORE_EVAS_SELECTION_BUFFER_LAST) goto end;
+    edata = ee->engine.data;
+    cbs = &edata->selection_data[selection].callbacks;
+ 
+@@ -4060,9 +4064,9 @@ _ecore_evas_x_selection_fixes_notify(void *udata EINA_UNUSED, int type EINA_UNUS
+ 
+    ee = ecore_event_window_match(ev->win);
+    selection = _atom_to_selection(ev->atom);
+-   EINA_SAFETY_ON_FALSE_GOTO(!!ee, end);
+-   EINA_SAFETY_ON_FALSE_GOTO(selection != ECORE_EVAS_SELECTION_BUFFER_LAST, end);
+-
++   //EINA_SAFETY_ON_FALSE_GOTO(!!ee, end);
++   if (!ee) goto end;
++   //EINA_SAFETY_ON_FALSE_GOTO(selection != ECORE_EVAS_SELECTION_BUFFER_LAST, end);
+    //notify that the selection has changed on this ecore evas
+    if (ee->func.fn_selection_changed)
+      ee->func.fn_selection_changed(ee, 0, selection);
