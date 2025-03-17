@@ -1,0 +1,5 @@
+moksha-data_0.4.1-19_all.deb x11 optional
+moksha-dbg_0.4.1-19_amd64.deb debug optional
+moksha-dev_0.4.1-19_amd64.deb devel optional
+moksha_0.4.1-19_amd64.buildinfo x11 optional
+moksha_0.4.1-19_amd64.deb x11 optional

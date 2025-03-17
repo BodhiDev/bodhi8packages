@@ -1,0 +1,889 @@
+moksha (0.4.1-21) unstable; urgency=low
+
+  * Update locals
+  * Border: fix for artifact buffer in shaped style while resizing
+  * Border: need one more var to be like internal win
+  * Moksha lacks dialog shaped style
+  * Correct ml.po plural forms
+  * config: Add env var to skip profile save
+  * Unfullscreen to max had no focus
+  * Prevent black squared BG in shaped edj style
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Mon, 10 Mar 2025 13:00:54 -0400
+
+moksha (0.4.1-20) unstable; urgency=low
+
+  * Debian: ensure e menu is installed
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Sun, 23 Feb 2025 12:47:50 -0500
+
+moksha (0.4.1-19) unstable; urgency=low
+
+  * Updated locals
+  * Fix monitoring of non-existant files/dirs in clock module
+  * Add Marathi to config-intl and e_wizard
+  * Minor Clipboard hist cleanup
+  * Allow xdg dir usage if you add -DDOXDG to CFLAGS
+  * Remove debug statements from notify
+  * Silence Places Module
+  * Favorites menu: fix efreet_xml ERR on empty file
+  * Fileman: custom FM entry under device tab
+  * EFM auto_mount was not working - fix
+  * Update copyright date
+  * Let's bring back adjacent iBar popup
+  * Theme: iBar adjacent popup
+  * iBar: we want only one config dialog
+  * iBar: adjacent label rewritten to theme independent
+  * Theme: no need adjacent label as theme independent
+  * Tasks: label hint theme independent
+  * Transition dialog size increased
+  * Clock: date leading zeros fix
+  * Notif: time leading zeros fix
+  * Edit for personal launcher dialog added
+  * Bigger textblock area for module description
+  * Typos in backlight mod desktop
+  * Shot module use internal tools
+  * Replace personal folder locations in e_test.c
+  * EFM: minor cleanup of strings
+  * Adding a few selected backgrounds back
+  * Background2 Win bg themed
+  * Background2 theme name ellipsis fix
+  * Added e-menu back
+  * Add compile option to force use of moksha-menu
+  * MOKSHA_CORE_MODULES: update mod list and add missing commas
+  * Removed old e17 mod in MOKSHA_CORE_MODULES
+  * Separator and Wallscape mods added to the list of mods
+  * Theme: wallpaper duplicity fix
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Sun, 23 Feb 2025 10:39:16 -0500
+
+moksha (0.4.1-18) jammy; urgency=low
+
+  * Updated locals
+  * Entry copy/paste fix via elementary
+  * Gadman position save fix
+  * Added sendtodesktop to e_remote
+  * Fix monitoring of non-existent files/dirs in clock module
+  * Duplicated entries in Module Desktop files
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Fri, 27 Dec 2024 15:12:49 -0500
+
+moksha (0.4.1-17) jammy; urgency=low
+
+  * Updated locals
+  * Set current gadcon style menu item to disabled, only use default
+    style as menu item if current style not set
+  * Gadcon: various callback tweaks
+  * Gadcon: fix bug where gadgets on shelves would randomly reorder
+  * Gadcon: remove resize callback on gadcon parent
+  * Gadcon: gadgets now delete the right menu when menu is deactivated
+  * Gadcon: fix crash after moving gadget between two zones
+  * Start: menu align tweaks
+  * Theme: left/right edges added for resize
+  * Theme: border bottom fix
+  * Start: position adjusted for multi screen
+  * Gadcon: problematic move in shelf shrink mode
+  * Tiles: static gravity windows tilable
+  * xkb conf: we want a focus on ilist
+  * Border: Snap edges feature in conflict with tiling mode
+  * Clock: we need a version in src file
+  * Modules whitelist update
+  * Ilist: I want backspace for ilist search box
+  * Menu: 3 px gap added for submenus
+  * Theme: widgets focus frame align fix
+  * Theme: slider right focus frame fix
+  * Battery: Health status added to popup
+  * Battery: timer del in popup destroy
+  * WIN key upstroke activation fix for NUMLOCK, CAPSLOCK and SCROLL_LOCK
+  * iBar: an another condition to clear app instances number
+  * Filter out dummy batteries with no design and no full charge level
+  * Xkb support for only 4 layouts (setxkbmap)
+  * Xkb config: 4 layout warning condition on better place
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Thu, 07 Nov 2024 00:31:32 -0500
+
+moksha (0.4.1-15) jammy; urgency=low
+
+  * xkbswitch: focus variable causes any app remember - fix
+  * Menu: invoke eap editor only if desktop file exists
+  * Clock: buff overflow
+  * Clock: NULL check
+  * Tasks: expand tasks DnD possibilities
+  * Clock versioning added
+  * Startup: put unused function out of compiling
+  * Clock: mouse in tip tweaks
+  * Theme: clock tip popup prevent from blinking when in/out mouse
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Tue, 10 Sep 2024 14:00:39 -0400
+
+moksha (0.4.1-13) jammy; urgency=low
+
+  * Xsession: depreciated fix
+  * Edgebindings: flip to workspace with drag only
+  * Nicer edge binds dialog layout
+  * About Bodhi localized
+  * Tasks: DnD handler added
+  * Personal apps - fix bug when removing item from list
+  * iBar: vertical min not possible to set on desktop
+  * Temperature: some conditions and corrections
+  * Theme: efm list - text over icon fix
+  * xkb: layout does not store correctly when shortcut used
+  * Xkb: keep the current layout after config apply
+  * Theme: bigger analog clock in popup
+  * Clock: date in mouse hover added
+  * Gadman popup width fix
+  * Updated locals
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Sat, 10 Aug 2024 13:27:50 -0400
+
+moksha (0.4.1-12) jammy; urgency=low
+
+  * Menus: separator after menu title causes freez?
+  * Clock: we need all modifiersCalloc num fix, size where it's wrong (E-port)
+  * Clock: NULL check
+  * Clock: keyboard toggle callendar fix for Always on top popup
+  * Clock: all calendar popups close on demand (mouse or esc key)
+  * xkb: set the selected layout after reboot fix
+  * xkb: code caused fast layouts switch. Event cb calls the same cb - fix
+  * e_menu: don't access NULL menu item
+  * Calloc num fix, size where it's wrong (E-port)
+  * Update localizations
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Wed, 12 Jun 2024 15:24:24 -0400
+
+moksha (0.4.1-11) jammy; urgency=low
+
+  * Screensaver: blank now feature
+  * Check & radio widget text offset fix
+  * Shot: copy to clipboard button added
+  * Shot Module: upload fix
+  * e sys main - fix minor leaking iterator (E port)
+  * Update localizations
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Sun, 19 May 2024 19:33:40 -0400
+
+moksha (0.4.1-10) jammy; urgency=low
+
+  * remember and xkb segfault fix
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Sat, 27 Apr 2024 13:13:57 -0400
+
+moksha (0.4.1-9) jammy; urgency=low
+
+  * Shot: dialog key_down fix
+  * Updated locales
+  * More xkb fixes
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Thu, 25 Apr 2024 06:48:01 -0400
+
+moksha (0.4.1-8) jammy; urgency=low
+
+  * Touchpad on/off feature added
+  * Touchpad keybind upgrade in conf
+  * Super_L key added to config
+  * Tasks items move project start
+  * e exec - fix exec of enlightenment_open to use actual e prefix
+  * e_exec.c: use e_util_exe_safe_run
+  * Keybinds: better checkbox text
+  * Bar: launch app from not in order list
+  * Evry: win key for show/hide popup
+  * conf_intl: fix crash on trying to write to non-writable input method file
+  * Tasks popup respects moving
+  * Tasks: standard 3 dots indent
+  * Clock Always on top checkbox pos fix
+  * Theme: border no bottom line in dialogs
+  * Tasks popup hide while shelf autohide
+  * Theme: IBar menu popup scaled
+  * Add Georgian Lang
+  * Systray: hide arrow when invisible shelf
+  * xkb: better event handle
+  * Notification: unwanted notif logo move when gc repopulate
+  * exec - store out incremented startup id to avoid clashes
+  * Border left_control fix
+  * Key bindings viewer in standalone source file
+  * conf_keybindings: Ensure key bindings viewer is localized
+  * Notification timeout fix
+  * e_powersave: document Modes
+  * Xkb switch on app feature
+  * Xkb: config version added
+  * e_about.c: correct url
+  * Clock: free handlers on mod shudtown
+  * Systray gcc warning fix, gc_popup clean
+  * Notification gadget: Multiple issues
+  * Fix Menu tracking in several modules
+  * Add module_arch to pc file
+  * e_remote: add default-bg get and set options
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Thu, 11 Apr 2024 07:16:49 -0400
+
+moksha (0.4.1-7) jammy; urgency=low
+
+  * Theme: Notification counter corrections
+  * Remove BL6 hack no longer needed
+  * Shelf: plain style offset correction
+  * Clock: easy dismissal added
+  * CLock: Always on top setting added
+  * Clock: set date complete rework
+  * Places Module: possible truncation
+  * Notification Module: fix new gcc warning
+  * e_fm_ipc: silence another gcc warning
+  * e_desklock.c: fix for comparison always true
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Tue, 24 Oct 2023 10:53:40 -0400
+
+moksha (0.4.1-6) jammy; urgency=low
+
+  * e_open: var not initialized
+  * Touchpad added to Mouse settings item
+  * Localizations update
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Sun, 08 Oct 2023 16:38:00 -0400
+
+moksha (0.4.1-5) jammy; urgency=low
+
+  * IBar: Shift and Ctrl added to left click
+  * Places: hide box after header click
+  * Pager: DnD decativate after gadcon moving
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Mon, 25 Sep 2023 06:06:44 -0400
+
+moksha (0.4.1-4) jammy; urgency=low
+
+  * IBar: Plank mode left click fix
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Fri, 22 Sep 2023 06:07:59 -0400
+
+moksha (0.4.1-3) jammy; urgency=low
+
+  * iBar: configuration version added
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Wed, 20 Sep 2023 06:07:57 -0400
+
+moksha (0.4.1-1) jammy; urgency=low
+
+  * Update Moksha version
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Sun, 17 Sep 2023 16:56:56 -0400
+
+moksha (0.4.0-15) jammy; urgency=low
+
+  * iBar icon instance borders counter support
+  * iBar: open all instance's borders with middle button
+  * iBar: Plank dock control added
+  * iBar: items reorganizing
+  * Places: edj - fix nomouse event in icon part
+  * Places: hide popup after run FM
+  * Update Moksha version in configure.ac
+  * localization support for new strings in several languages
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Sun, 17 Sep 2023 14:58:19 -0400
+
+moksha (0.4.0-14) jammy; urgency=low
+
+  * iBar: unlock item block moving
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Sun, 06 Aug 2023 14:24:39 -0400
+
+moksha (0.4.0-13) jammy; urgency=low
+
+  * Prevent EFM from opening symlinks
+  * Systray arrow size scale fix
+  * Theme: border no 1 pixel visible in max mode
+  * Use localized QuickStart
+  * More localizations in module desktop files
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Fri, 28 Jul 2023 17:22:31 -0400
+
+moksha (0.4.0-12) jammy; urgency=low
+
+  * Fix e_remote -desktop-bg-add
+  * Msg Module: Fix Enlightment Usage in Module Documentation
+  * Pager livethumb fix
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Tue, 11 Jul 2023 15:35:08 -0400
+moksha (0.4.0-11) jammy; urgency=low
+
+  * fix be localization in package
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Wed, 28 Jun 2023 12:11:15 -0400
+
+moksha (0.4.0-10) jammy; urgency=low
+
+  * Tweak Bodhi cfg
+  * Places skip usage warnings for CDROM
+  * Tasks: little scrolling in shrink mode fix
+  * Belarusian lang added to wizard
+  * Theme: tiny border movement fix when shaded
+  * Border: indentation correction
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Sat, 24 Jun 2023 13:18:06 -0400
+
+moksha (0.4.0-9) jammy; urgency=low
+
+  * e mime cfg - skip work when string is empty
+  * xkbswitch menu header added
+  * Changing about scroller color to darker
+  * Fix gcc warning in e_widget_filepreview.c
+  * Theme: clock.edc clean up
+  * Border DnD in conflict with pager fix
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Wed, 31 May 2023 18:26:25 -0400
+
+moksha (0.4.0-8) jammy; urgency=low
+
+  * Clock time set slider replaced with elm widget
+  * Clock conf text changes
+  * Two O icons added
+  * Menu category icons added for no icon set selected
+  * Systray: better fix for white square
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Thu, 11 May 2023 06:05:39 -0400
+
+moksha (0.4.0-7) jammy; urgency=low
+
+  * Use theme background in deb file
+  * Shelf: better offset for 1/5 icons size
+  * Winlist min/max height settings unnecessary
+  * Theme: battery gadget tweaks
+  * Systray: temporary fix for no icons
+  * Shelf content dialog resizable
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Sun, 23 Apr 2023 15:07:25 -0400
+
+moksha (0.4.0-6) jammy; urgency=low
+
+  * Border: fix related to iBar indicator
+  * systray tweaks to fix scale issues
+  * Shelf: MAX macro added
+  * Window move info fix and disable by default
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Fri, 07 Apr 2023 16:17:48 -0400
+
+moksha (0.4.0-5) jammy; urgency=low
+
+  * Tasks: autoresize cb timer for new window
+  * Tasks: Shrink to fit feature tweak
+  * Border left/right edges added
+  * iBar: bad context menu x coordinate
+  * Notification and clipboard menu headers added
+  * Swirch to MokshaGreen Theme
+  * Use bodhi-background-bodhileaf-cjn/
+  * Better prevention for adding more sytray gadgets
+  * File icon respects icon group (in case of fadded backgrounds)
+  * Theme: better vertical systray align
+  * Border missing when desktop flip (fix)
+  * Border: libreoffice and some apps cause segf after close
+  * Shelf: asan - using freed variable fix
+  * Some tweaks to e_exec (E port)
+  * Shelf recreate after style change
+  * Clipboard setting icon fix
+  * Theme clock: we do not want digitron frame
+  * Theme: more generic syscon gadget icon
+  * Theme: pager preview fix
+  * Update localizations
+  * Filepreview: no need resolution for audio files
+  * Filepreview: show resolution & edj file
+  * Filepreview fixes: image, video, audio
+  * Notificiation: No need to free dead timer
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Sun, 19 Mar 2023 11:36:24 -0400
+
+moksha (0.4.0-4) jammy; urgency=low
+
+  * Clipboard: ws cleanup in history.c
+  * Menu crash fix when uninstalling apps
+  * ilist fix again
+  * Systray free space after app close fix
+  * Themes naming changes
+  * Border menu 'move to' item fix
+  * Clock: no gadget frame in float orient
+  * Fix for EEEK trying to del non-shared stringshare
+  * Pager each desk settings added on right click
+  * udisks were added to POTFILES.in
+  * Notification expired warning gettext fix
+  * Syscon buttons layout fix
+  * Theme: better align in notification counter
+  * Theme: ibar - better overlay text align
+  * Fix Syscon translations.
+  * Default theme misses syscon edc
+  * Shelf items size settings added
+  * Shelf settings text changed
+  * iBar gap code refactored
+  * iBar lock move revert. We need it for new iBar features
+  * Complete gadcon popup gap rework
+  * Gadcon config save after gadgets move end
+  * pager preview fix
+  * Improved localizations
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Sun, 12 Feb 2023 14:49:12 -0500
+
+moksha (0.4.0-3) jammy; urgency=low
+
+  * iBar Icon menu
+  * Settings Panel: bad Input item order
+  * e syscon: use “System Controls” instead of Syscon
+  * Improved localizations
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Sun, 18 Dec 2022 17:01:03 -0500
+
+moksha (0.4.0-2) jammy; urgency=low
+
+  * Notification gadget improvements
+  * Improved localizations
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Thu, 24 Nov 2022 09:17:20 -0500
+
+moksha (0.4.0-1) jammy; urgency=low
+
+  * eldbus API conversion
+  * Switch to udisk2 API
+  * Improved notification API
+  * Clipboard float menu segfault fix
+  * Dialog: widget value change with space key
+  * Menu: right mouse click for app editor from the item
+  * enlightenment_sys - fix security hole CVE-2022-37706
+  * Fix eap editor from ibar
+  * Wizard: page 11 properly close file
+  * Tasks: unwanted ellipsis in vert mode
+  * Tasks: icon only mode bug on vertical shelf
+  * Tasks: no need timer
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Sun, 16 Oct 2022 15:21:54 -0400
+
+moksha (0.3.4-18) focal; urgency=low
+
+  * Mouse and touchpad settings modifs
+  * e_fm DND unload loop fix
+  * Clock: no gadget frame in float orient - revert
+  * ilist scroller viewport search box fix
+  * efm - fix missing format strings in error reporting
+  * efm - handle cancel of async eio if icon is freed and eio still active
+  * Stringshare_replace in fwin
+  * efm_op no longer tries to close invalid fds during delete ops
+  * Tasks Module: strncat overflow warning fix
+  * restore EFM code
+  * e-open: better handling of terminal apps
+  * Notification: minor mem leak in config
+  * Fix for trying to del non-shared stringshare in config theme dialog
+  * Notification: unneeded NULL assignments
+  * Notification: use E_FREE for better sanity check
+  * Notification: potential seg fault fixes
+  * Notification: we miss dir path
+  * Mixer: user e_widget hook instead of evas smart call back
+  * Notify: use eina_convert_itoa for gadget text
+  * Mixer: slider value format change
+  * Notification: fix potential mem issues
+  * Notification: blacklist can be NULL
+  * Mixer: volume slider value added into popup
+  * Border menu 'move to' item fix
+  * Bad smart menu direction for multi monitors
+  * Systemd support for sysactions
+  * Notification conditions simplified
+  * Notification remove file check
+  * Widget preview fix (E port)
+  * Mixer gadget had no icon in gadgets list
+  * Places icon edj theming support
+  * Mouse theme section should be on separate frame
+  * BG scale reset (Slideshow extra module bad res bug fix)
+  * Updated localiations
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Sun, 28 Aug 2022 18:44:37 -0400
+
+moksha (0.3.4-17) focal; urgency=low
+
+  * Touchpad: better initial config for old PCs
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Sun, 22 May 2022 07:41:28 -0400
+
+moksha (0.3.4-17) focal; urgency=low
+
+  * Touchpad: better initial config for old PCs
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Sun, 22 May 2022 07:41:28 -0400
+
+moksha (0.3.4-15) focal; urgency=low
+
+  * Touchpad settings added
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Sat, 14 May 2022 18:37:25 -0400
+
+moksha (0.3.4-14) focal; urgency=low
+
+  * Clock module settings icon fix
+  * Pager settings icon fix
+  * Env variables settings icon fix
+  * Battery and Lang desklock settings icon fix
+  * Edge and Signal bindings settings icon fix
+  * Quickaccess: system-run typo
+  * Adjacent_popup_destroy to tasks_free function
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Sun, 08 May 2022 11:46:28 -0400
+
+moksha (0.3.4-13) focal; urgency=low
+
+  * e_wizard: add support for distro forks custom startupcommands file
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Sun, 01 May 2022 07:25:26 -0400
+
+moksha (0.3.4-12) focal; urgency=low
+
+  * Battery Module popup
+  * DnD feature for menu, border and iBar added
+  * Color slider mouse wheel support
+  * Border base color added to color list
+  * add REZA to team
+  * Updated pt_BR translations
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Sun, 24 Apr 2022 05:35:36 -0400
+
+moksha (0.3.4-11) focal; urgency=low
+
+  * Language: ilist search box bug fixed
+  * Language: ilist focus simplified
+  * Language: Return  and Enter key works to confirm item
+  * Border: window edge snap for some borderless win types
+  * Shot: info label change for Alt PrtSc
+  * Tasks, iBar adjacent label - screen limit fix
+  * Battery code clean up
+  * Border: prevent window move if app is reopened from the systray
+  * Shot module settings icon fix
+  * Quickaccess settings icon fix
+  * Settings launcher icon fix
+  * Clipboard gc_icon fix
+  * Screen module icon fix
+  * Edge bindings module icon fix
+  * Key bindings module icon fix
+  * Win manipulation module icon fix
+  * Theme module icon fix
+  * Language module icon fix
+  * xkbswitch module icon fix
+  * Get icon theme name right in profile
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Tue, 22 Feb 2022 16:38:49 -0500
+
+moksha (0.3.4-10) focal; urgency=low
+
+  * Module icon fixed for better consistency
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Tue, 25 Jan 2022 11:35:10 -0500
+
+moksha (0.3.4-9) focal; urgency=low
+
+  * Keybindings viewer: minor cleanup
+  * Show history key bindings fix
+  * Key bindings preview: eina_stringshare error
+  * Systray MOKSHA_SYSTRAY_ARROW env support
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Thu, 20 Jan 2022 07:26:33 -0500
+
+moksha (0.3.4-8) focal; urgency=low
+
+  * Update e config_version
+  * Tiling settings dialog respect icon set
+  * Tiling conf item respect icon set
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Mon, 17 Jan 2022 08:57:16 -0500
+
+moksha (0.3.4-7) focal; urgency=low
+
+  * Update BL version to 6.1
+  * Updated Localization
+  * Border snap edge smaller gap for quarters
+  * Language settings Apply button fix
+  * iBar: adjacent label code clean up
+  * Windows list and switcher ready for multi monitors
+  * Evry and bodhi profile: support for MOKSHA_PKEXEC
+  * Systray show/hide support added
+  * Update Bodhi Team
+  * Theme: notification body should respect scaling
+  * Splash dialog resizable and height fixed
+  * xkbswitch seq fix when switching among layouts
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Sun, 16 Jan 2022 10:25:36 -0500
+
+moksha (0.3.4-6) focal; urgency=low
+
+  * Update BL version to 6.1
+  * Updated Localization
+  * Border snap edge smaller gap for quarters
+  * Language settings Apply button fix
+  * iBar: adjacent label code clean up
+  * Windows list and switcher ready for multi monitors
+  * Evry and bodhi profile: support for MOKSHA_PKEXEC
+  * Systray show/hide support added
+  * Update Bodhi Team
+  * Theme: notification body should respect scaling
+  * Splash dialog resizable and height fixed
+  * xkbswitch seq fix when switching among layouts
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Sun, 16 Jan 2022 10:25:36 -0500
+
+moksha (0.3.4-5) focal; urgency=low
+
+  * Key bindings list dialog
+  * ilist items feed bug when widget disabled - fix
+  * Dummy proof shelf removal
+  * Sys: unsaved apps list in logout dialog added
+  * Everything: on/off used item history added
+  * Shot legacy mode: copy link
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Sat, 27 Nov 2021 09:24:35 -0500
+
+moksha (0.3.4-4) focal; urgency=low
+
+  * Updated localization
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Thu, 04 Nov 2021 06:29:03 -0400
+
+moksha (0.3.4-3) focal; urgency=low
+
+  * Border edge snap feature added
+  * malloc_trim added to reduce mem usuage some
+  * Clear app menu cache any time a desktop is edited internally
+  * Updated localization
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Wed, 03 Nov 2021 05:26:22 -0400
+
+moksha (0.3.4-2) focal; urgency=low
+
+  * Mixer: switches to the last connected sink
+  * ELM theme falls to Default in case elm part is missing
+  * ELM icons set after app theme icon setup
+  * Clock: gadcon aspect changed to square
+  * Tasks: delete gadcon populate event
+  * Tasks module move on shelf when add/del gadgets (fix)
+  * Revert gadcon port from E
+  * Updated Russian localizations
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Thu, 07 Oct 2021 07:07:03 -0400
+
+moksha (0.3.4-1) focal; urgency=low
+
+  * Borderless fix for DOCK type apps
+  * Notification tweaks
+  * Places edc modernization and smaller images sizes in edj
+  * Force config save on sys actions
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Tue, 22 Sep 2021 10:08:14 -0400
+
+moksha (0.3.3-15) focal; urgency=low
+
+  * tasks improvement and app hints added
+  * Notification actions
+  * Updated fr, sk, es, pt and pt_BR localizations
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Wed, 15 Sep 2021 17:05:45 -0400
+
+moksha (0.3.3-14) focal; urgency=low
+
+  * support for Notification actions
+  * Updated French localization
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Fri, 27 Aug 2021 09:52:26 -0400
+
+moksha (0.3.3-13) focal; urgency=low
+
+  * Regression: Unmaximize window bottom fix
+  * xkbswitch nogflag text scaled
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Thu, 12 Aug 2021 16:24:35 -0400
+
+moksha (0.3.3-12) focal; urgency=low
+
+  * Favorite apps menu fix
+  * Borders list order fix on restarts
+  * Systray: change E_Event to show gadget
+  * Improve pt_BR, de, es, nl, sk translations
+  * Icons set: fall to Gnome if not theme defined
+  * Mouse middle click for gadman move on the desktop and shelf
+  * Border: frame code improvements
+  * Border noframe/fullscreen support fix
+  * Update de.po
+  * Systray: show gadcon after E_EVENT_GADCON_POPULATE creates all gadgets on the shelf
+  * Minor localization tweaks
+  * Add MX spanish locale in wizard module
+  * Adding portuguese locale in wizard module
+  * Analog clock: odd issue with mouse click fix
+  * Notification: EPulse added to blacklist
+  * Clipboard icon respects the icon set change
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Fri, 06 Aug 2021 17:04:00 -0400
+
+moksha (0.3.3-11) focal; urgency=low
+
+  * Settings panel respects the icon set change
+  * iBar: comment and generic name for Adjacent mode
+  * fr and pt improvements
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Tue, 18 May 2021 17:27:14 -0400
+
+moksha (0.3.3-10) focal; urgency=low
+
+  * Border: unmaximize event added
+  * Updated sk, ru and fr localizations
+  * Updated some module and profile desktop files fr improvements
+  * Update moksha.pot
+  * Update moksha config
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Sat, 08 May 2021 16:17:05 -0400
+
+moksha (0.3.3-9) focal; urgency=low
+
+  * Profile Tweaks
+  * Updated nl, es & fr localizations
+  * Gadcon menu MoveTo icons fix
+  * Application theme GTK list should show theme if Match moksha is checked
+  * Border focus frame for borderless apps
+  * Border fix for unfullscreen icon and shaped mode
+  * Battery module improvements
+  * Everything: single mouse click mode added
+  * Border correction related to borderless state
+  * Clipboard: if not clipboard icon, replace with fdo edit-paste
+  * Everything back button fix
+  * clipboard module: use eina_convert_itoa
+  * Fix gcc-10 warnings
+  * Evry config popup size increase
+  * Evry zoom feature added
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Mon, 03 May 2021 16:05:11 -0400
+
+moksha (0.3.3-8) focal; urgency=low
+
+  * Improve e_wizard for ISO
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Tue, 30 Mar 2021 07:32:14 -0400
+
+moksha (0.3.3-7) focal; urgency=low
+
+  * xkbswitch: Alternative lookup path
+  * de, sk, nl localization updates
+  * Settings Panel size to 600x500
+  * Use thunar in bodhi profile
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Fri, 26 Mar 2021 13:47:34 -0400
+
+moksha (0.3.3-6) focal; urgency=low
+
+  * Handle quickstart a little better
+  * Screen lock/unlock apps list save fix
+  * Tasks, Battery, Systray: I am destroying dead timers
+  * enlightenment_remote shellcheck compliant
+  * clipboard hist list issue for small screens fixed
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Mon, 22 Mar 2021 10:54:59 -0400
+
+moksha (0.3.3-5) focal; urgency=low
+
+  * minor chinese localizations
+  * Notification counter toggle added
+  * XDG_CURRENT_DESKTOP support added
+  * Menu icons name change
+  * Set Date and Time feature added
+  * Everything icon changed to theme one
+  * Configuration panel icon changed
+  * Places icon changed to theme
+  * Bodhi profile: show bookmarks by default
+  * Suppress useless prints in stdout
+  * Chromium support to iBar
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Sun, 14 Mar 2021 15:00:35 -0400
+
+moksha (0.3.3-4) focal; urgency=low
+
+  * Update French po
+  * Set theme wallpaper as default
+  * Set thunar as default in multiple places
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Sat, 20 Feb 2021 05:04:43 -0400
+
+moksha (0.3.3-3) focal; urgency=low
+
+  * Icon preview regression hack
+  * Systray delay issue
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Mon, 15 Feb 2021 07:23:41 +0004
+
+moksha (0.3.3-2) focal; urgency=low
+
+  * Theme and icon settings improvement to avoid user confusion
+  * Properly set mime type for file managers
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Sat, 13 Feb 2021 16:26:18 +0004
+
+moksha (0.3.3-1) focal; urgency=low
+
+  * Update Moksha version
+  * IBar changes
+  * Disable firstboot landing
+  * Remove Ubiquity from ISO ibar contents
+  * Update Russian translations
+  * Border Menu: fix harmless EFL ERR msg
+  * Support for ISO profile
+  * EFL clipboard fix due to EFL changes
+  * Keybinding support for Profile changes
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Sat, 13 Feb 2021 14:25:10 +0004
+
+moksha (0.3.2-8) focal; urgency=low
+
+  * Support for shaped borders restored
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Tue, 02 Feb 2021 12:15:37 +0004
+
+moksha (0.3.2-7) focal; urgency=low
+
+  * Support for shaped borders restored
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Thu, 28 Jan 2021 07:21:09 +0004
+
+
+moksha (0.3.2-6) focal; urgency=low
+
+  *  Stefan task changes
+  *  xkbswitch options group names fix
+  *  Localizations updates
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Sun, 24 Jan 2021 10:21:37 +0004
+
+
+moksha (0.3.2-5) focal; urgency=low
+
+  *  Gadcon and shelf fix
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Tue, 12 Jan 2021 10:21:37 +0004
+
+
+moksha (0.3.2-4) focal; urgency=low
+
+  *  Theme notification text scaled
+  *  Clock screensaver events added
+  *  Refresh clock module date when resume from sleep
+  *  Use Elm copy for evry copy
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Sun, 10 Jan 2021 16:56:33 +0004
+
+
+moksha (0.3.2-3) focal; urgency=low
+
+  *  e_icon changes
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Thu, 24 Dec 2020 06:40:16 +0004
+
+
+moksha (0.3.2-2) focal; urgency=low
+
+  *  Localization updates
+  *  Menu Changes
+  *  Battery popup
+  *  Tiling changes
+  *  Backlight VM cap fix
+  *  Systray spacing hack
+  *  Color dialog entry number sizing fix
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Thu, 17 Dec 2020 07:39:07 +0004
+
+moksha (0.3.2-1) focal; urgency=low
+
+  *  Initial commit for BL6.0
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Sat, 03 Oct 2020 08:06:50 +0004

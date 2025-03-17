@@ -1,0 +1,8 @@
+etc/enlightenment/*
+etc/xdg/menus/e-applications.menu
+usr/share/applications/*
+usr/share/pixmaps/*
+usr/share/enlightenment/data
+usr/share/epulse/data/themes/*
+usr/share/locale
+usr/share/xsessions

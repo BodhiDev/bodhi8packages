@@ -1,0 +1,7 @@
+usr/bin/*
+usr/lib/*/enlightenment/modules/*
+usr/lib/*/enlightenment/utils/enlightenment_*
+usr/share/enlightenment/AUTHORS
+usr/share/enlightenment/doc/*
+usr/lib/*/libepulse.so
+usr/lib/*/libepulse.la
