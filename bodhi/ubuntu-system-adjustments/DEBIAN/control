@@ -1,5 +1,5 @@
 Package: ubuntu-system-adjustments
-Version: 0.0.3
+Version: 0.0.1-3
 Architecture: all
 Maintainer: Robert (ylee) Wiley <ylee@bodhilinux.com>
 Section: admin
