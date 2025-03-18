@@ -1,0 +1,13 @@
+Package: ubuntu-system-adjustments
+Version: 2025.01.14-xia
+Architecture: all
+Maintainer: Clement Lefebvre <root@linuxmint.com>
+Installed-Size: 750
+Depends: mintsystem
+Recommends: plymouth-theme-spinner
+Conflicts: mint-artwork-common
+Replaces: mint-artwork-common
+Section: admin
+Priority: optional
+Description: Adjustments to the Ubuntu package base
+ These adjustments modify some unwanted behaviors of the Ubuntu package base and are specific to this base.

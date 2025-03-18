@@ -1,0 +1,9 @@
+/etc/NetworkManager/conf.d/ubuntu-system-adjustments.conf
+/etc/apparmor.d/mint-chromium
+/etc/apt/apt.conf.d/00mint
+/etc/apt/preferences.d/nosnap.pref
+/etc/default/grub.d/50_linuxmint.cfg
+/etc/sysctl.d/20-apparmor-mint.conf
+/etc/systemd/system.conf.d/50_linuxmint.conf
+/etc/timeshift/restore-hooks.d/50_linuxmint
+/etc/upstream-release/lsb-release

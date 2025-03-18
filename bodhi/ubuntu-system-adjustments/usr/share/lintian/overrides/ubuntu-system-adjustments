@@ -1,0 +1,5 @@
+ubuntu-system-adjustments: package-installs-apt-preferences
+ubuntu-system-adjustments: maintainer-script-calls-systemctl
+ubuntu-system-adjustments: uses-implicit-await-trigger
+ubuntu-system-adjustments: systemd-service-file-missing-documentation-key
+ubuntu-system-adjustments: package-supports-alternative-init-but-no-init.d-script

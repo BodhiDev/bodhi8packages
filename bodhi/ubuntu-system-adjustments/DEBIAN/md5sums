@@ -1,0 +1,9 @@
+0ab19872e10e3321510e7b82b3465d15  usr/lib/sysctl.d/50-mint.conf
+4b601991d0b5448760f20ecca654cd03  usr/share/doc/ubuntu-system-adjustments/copyright
+f9ff415473c12a635627012befbcd388  usr/share/doc/ubuntu-system-adjustments/changelog.gz
+14a126266fa93be12aa059bf0538eb03  usr/share/ubuntu-system-adjustments/systemd/stop
+a676bbeaf58165f9e5d0ad698a8dd4ff  usr/share/ubuntu-system-adjustments/systemd/start
+d6f54775a869beeef57f28bf5846913d  usr/share/ubuntu-system-adjustments/systemd/adjust-grub-title
+fda94580b39dc43b0cfde9888e021694  usr/share/lintian/overrides/ubuntu-system-adjustments
+77a72c9e2ce2262cf00e5f3e75093b6a  lib/modprobe.d/mint-blacklist-ntfs3.conf
+46f46920ece698f926675a64cbdaf470  lib/systemd/system/ubuntu-system-adjustments.service

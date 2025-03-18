@@ -1,0 +1,9 @@
+/etc/NetworkManager/conf.d/ubuntu-system-adjustments.conf
+/etc/apt/preferences.d/nosnap.pref
+/etc/apt/preferences.d/bodhi.pref
+/etc/default/grub.d/50_bodhilinux.cfg
+/etc/default/grub.d/backgrounds/grub.png
+/etc/systemd/system.conf.d/50_linuxbodhi.conf
+/etc/sysctl.d/20-apparmor-bodhi.conf
+/etc/timeshift/restore-hooks.d/50_linuxbodhi
+/etc/upstream-release/lsb-release
