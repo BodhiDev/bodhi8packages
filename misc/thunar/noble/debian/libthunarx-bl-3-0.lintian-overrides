@@ -1,0 +1,4 @@
+libthunarx-bl-3-0: copyright-refers-to-symlink-license usr/share/common-licenses/GPL
+libthunarx-bl-3-0: package-name-doesnt-match-sonames libthunarx-3-0
+libthunarx-bl-3-0: symbols-file-contains-current-version-with-debian-revision
+libthunarx-bl-3-0: symbols-file-missing-build-depends-package-field
