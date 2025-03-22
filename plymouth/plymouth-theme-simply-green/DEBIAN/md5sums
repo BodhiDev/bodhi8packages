@@ -1,6 +1,5 @@
-d291adf69e30812280f24136ba7f1015  usr/share/doc/plymouth-theme-simply-green/changelog.Debian.gz
+8c7e58df157b06f4854646df4c8b8acf  usr/share/doc/plymouth-theme-simply-green/changelog.Debian.gz
 d291adf69e30812280f24136ba7f1015  usr/share/doc/plymouth-theme-simply-green/copyright
-2adc09be54e2b81831673c13a29c2b1d  usr/share/lintian/overrides/plymouth-theme-simply-green
 4a534e3527f9dfe1220e77c6308dc581  usr/share/plymouth/themes/simply-green/background.png
 664d04f0c48c1ba2e1a943cd8dff96d2  usr/share/plymouth/themes/simply-green/bodhi_logo.png
 9eae51832ae0c47365660baa8fd1f96e  usr/share/plymouth/themes/simply-green/box.png
