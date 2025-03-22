@@ -1,0 +1,14 @@
+Package: plymouth-theme-bodhi-boss
+Version: 0.0.1-2
+Architecture: all
+Maintainer: Robert Wiley <ylee@bodhilinux.com>
+Installed-Size: 171
+Depends: plymouth, plymouth-label
+Provides: plymouth-theme
+Section: x11
+Priority: optional
+Homepage: https://github.com/BodhiDev/plymouth-theme-bodhi-boss
+Description: Bodhi Linux Plymouth Theme
+ Default plymouth theme for Bodhi Linux BL7.
+ .
+ Loosely based on a plymouth script by Mad Nick.

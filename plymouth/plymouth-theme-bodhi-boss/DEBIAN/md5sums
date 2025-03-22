@@ -1,0 +1,12 @@
+db9b16c4389d2c61b07016f42d2cc1f5  usr/share/doc/plymouth-theme-bodhi-boss/changelog.Debian.gz
+a2c87ed2a441625c8ff0315ce918d43d  usr/share/doc/plymouth-theme-bodhi-boss/copyright
+35c3a078b598f07694790edb5cfa732a  usr/share/plymouth/themes/bodhi-boss/bodhi-boss.plymouth
+bfaf6313ae015bc78eebb7a9a6472c58  usr/share/plymouth/themes/bodhi-boss/bodhi-boss.script
+aa0d6b72938ec47682da7d52ee0f6f68  usr/share/plymouth/themes/bodhi-boss/fsck-fade.png
+bc02a0b62c04ba810a9300e60f6c1f11  usr/share/plymouth/themes/bodhi-boss/logo.png
+66ff7d2405830bc56eceefebccf2e797  usr/share/plymouth/themes/bodhi-boss/passw-dialog.png
+6434ef58adaade78c43e33b33e8a34a3  usr/share/plymouth/themes/bodhi-boss/progress-fade.png
+673792258ffe4a5d64a3107ec647bf19  usr/share/plymouth/themes/bodhi-boss/progress-meter.png
+abde222fd2371283ee8bc6ff337819c3  usr/share/plymouth/themes/bodhi-boss/spinner.png
+51ca598c7c1aaac4465c8b51ec918ec6  usr/share/plymouth/themes/bodhi-boss/test.png
+0995d778f13ba7c93d9850e9bbf8ef19  usr/share/plymouth/themes/bodhi-boss/wallpaper.png
