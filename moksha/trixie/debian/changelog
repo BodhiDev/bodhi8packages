@@ -1,3 +1,10 @@
+moksha (0.4.1-22) unstable; urgency=low
+
+  * Update locals
+  * Popup: a better check if Moksha uses compositor
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Fri, 21 Mar 2025 10:35:12 -0400
+ 
 moksha (0.4.1-21) unstable; urgency=low
 
   * Update locals
