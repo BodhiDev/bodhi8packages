@@ -1,0 +1,12 @@
+Package: bodhi-apt-source
+Version: 0.0.1-1
+Architecture: all
+Maintainer: Robert (ylee) Wiley <ylee@bodhilinux.com>
+Depends: apt, bodhilinux-keyring
+Installed-Size: 8
+Section: admin
+Priority: optional
+Description: Supplies Bodhi Apt sources
+ This file adds Bodhi's B8debbie repo.
+ .
+ This is the Debian Trixie version.
