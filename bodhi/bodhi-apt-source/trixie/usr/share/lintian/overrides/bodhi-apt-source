@@ -1,1 +1,1 @@
-bodhi-apt-source: initial-upload-closes-no-bugs [usr/share/doc/bodhi-apt-source/changelog.Debian.gz:1]
+bodhi-apt-source: package-installs-apt-preferences [etc/apt/preferences.d/bodhi.pref]
