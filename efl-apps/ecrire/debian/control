@@ -1,0 +1,24 @@
+Source: ecrire
+Section: editors
+Priority: optional
+Maintainer: Robert Wiley <ylee@bodhilinux.com>
+Build-Depends: debhelper (>=9), meson, pkg-config, libtool, cmake, libefl-dev (>=1.16.0)
+Standards-Version: 3.9.6
+Homepage: https://git.enlightenment.org/enlightenment/ecrire
+
+Package: ecrire
+Architecture: any
+Depends: ${misc:Depends}, libc6 (>=0.21), libefl (>=1.16.0)
+Description: EFL Text Editor
+ A simple EFL based GUI for editing text files.
+ .
+ Ecrire is mostly a proof of concept application.
+
+Package: ecrire-dbg
+Architecture: any
+Depends: ecrire (=${binary:Version})
+Description: EFL Text Editor
+ A simple EFL based GUI for editing text files.
+ . 
+ Debug symbols for ecrire.
+ 
