@@ -2,9 +2,17 @@
 Type=Application
 Name=Entice
 GenericName=Image Viewer
+GenericName[cs]=Prohlížeč obrázků
 GenericName[fr]=Visionneuse d'images
+GenericName[hi]=छवि दर्शक
+GenericName[pt]=Visualizador de imagens
+GenericName[sk]=Prehliadač obrázkov
 Comment=Image Viewer
+Comment[cs]=Prohlížeč obrázků
 Comment[fr]=Visionneuse d'images
+Comment[hi]=छवि दर्शक
+Comment[pt]=Visualizador de imagens
+Comment[sk]=Prehliadač obrázkov
 Exec=entice %F
 Icon=entice
 Categories=Graphics;Viewer;
