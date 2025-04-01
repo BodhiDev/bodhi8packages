@@ -1,0 +1,79 @@
+# Polish translation for entice.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# diekrz2, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-25 15:41-0400\n"
+"PO-Revision-Date: 2025-04-01 14:30+0000\n"
+"Last-Translator: diekrz2\n"
+"Language-Team: none\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#: src/bin/entice_main.c:152
+msgid "Simple image viewer written with Enlightenment Foundation Libraries."
+msgstr "Prosty program do przeglądania obrazów napisany przy użyciu bibliotek Enlightenment Foundation (EFL)."
+
+#: src/bin/entice_main.c:156
+msgid "Go into the fullscreen mode from start."
+msgstr "Przejdź do trybu pełnoekranowego przy uruchomieniu."
+
+#: src/bin/entice_main.c:187
+msgid "show program version."
+msgstr "pokaż wersję programu."
+
+#: src/bin/entice_main.c:190
+msgid "show copyright."
+msgstr "pokaż prawa autorskie."
+
+#: src/bin/entice_main.c:193
+msgid "show license."
+msgstr "pokaż licencję."
+
+#: src/bin/entice_main.c:196
+msgid "show this message."
+msgstr "pokaż tę wiadomość."
+
+#: src/bin/entice_main.c:358
+msgid "could not create log domain '"
+msgstr "nie można utworzyć domeny dziennika '"
+
+#: src/bin/entice_main.c:364
+msgid "Efreet support needed."
+msgstr "Potrzebne wsparcie Efreet."
+
+#: src/bin/entice_main.c:371
+msgid "Cache directory can not be found."
+msgstr "Nie można znaleźć katalogu pamięci podręcznej (cache)."
+
+#: src/bin/entice_main.c:378
+msgid "Could not parse command line options."
+msgstr "Nie można przeanalizować opcji wiersza komend."
+
+#: src/bin/entice_main.c:425
+msgid "could not create main window."
+msgstr "nie można utworzyć głównego okna."
+
+#: src/bin/entice_win.c:224
+msgid "could not allocate memory for Entice struct"
+msgstr "nie można przydzielić pamięci dla struktury Entice"
+
+#: src/bin/entice_win.c:231
+msgid "could not load \"config\" configuration."
+msgstr "nie można załadować konfiguracji \"config\"."
+
+#: src/bin/entice_win.c:242
+msgid "could not create elm window."
+msgstr "nie można utworzyć okna elm."
+
+#: src/bin/entice_win.c:292
+msgid "could not apply the theme."
+msgstr "nie można zastosować wystroju."
