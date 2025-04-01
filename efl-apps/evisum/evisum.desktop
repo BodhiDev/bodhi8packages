@@ -3,13 +3,14 @@ Type=Application
 Name=Evisum
 GenericName=Process Explorer
 GenericName[de]=Prozessaktivität
+GenericName[cs]=Správca procesov
 GenericName[es]=Actividad del sistema
 GenericName[fr]=Activité des processus
 GenericName[it]=Attività del sistema
 GenericName[pt]=Atividade dos processos
 GenericName[pt_br]=Atividades dos processos
 GenericName[ru]=Системная активность
-GenericName[sk]=Aktivita procesov
+GenericName[sk]=Správca procesov
 Exec=evisum
 Icon=evisum
 Categories=System;Monitor;
@@ -20,6 +21,7 @@ Keywords=system;process;task
 [Desktop Action cpu-activity]
 Name=CPU Activity
 Name[de]=CPU-Aktivität
+Name[cs]=Aktivita CPU
 Name[es]=Actividad de CPU
 Name[fr]=Activité du CPU
 Name[it]=Attività della CPU
@@ -31,40 +33,44 @@ Exec=evisum -c
 [Desktop Action memory-usage]
 Name=Memory Usage
 Name[de]=Arbeitsspeicherverbrauch
+Name[cs]=Správa paměti
 Name[es]=Uso de Memoria
 Name[fr]=Utilisation de la mémoire
 Name[it]=Utilizzo della memoria
 Name[pt]=Utilização da memória
 Name[pt_br]=Utilização da memória
-Name[sk]=Aktivita Pamäte
+Name[sk]=Správa pamäte
 Exec=evisum -m
 
 [Desktop Action disk-usage]
 Name=Disk Usage
 Name[de]=Festplattenbelegung
+Name[cs]=Správa disku
 Name[es]=Uso de Disco
 Name[fr]=Utilisation du disque
 Name[pt]=Utilização do disco
 Name[pt_br]=Utilização do disco
-Name[sk]=Aktivita Disku
+Name[sk]=Správa disku
 Exec=evisum -d
 
 [Desktop Action network-activity]
 Name=Network Activity
 Name[de]=Netzwerkaktivität
+Name[cs]=Aktivita sítě
 Name[es]=Actividad de Red
 Name[fr]=Activité du réseau
 Name[pt]=Atividade da rede
 Name[pt_br]=Atividade de rede
-Name[sk]=Aktivita Siete
+Name[sk]=Aktivita siete
 Exec=evisum -n
 
 [Desktop Action sensor-view]
 Name=Sensor View
 Name[de]=Sensor-Übersicht
+Name[sk]=Správa senzorů
 Name[es]=Vista de Sensor
 Name[fr]=Aperçu des capteurs
 Name[pt]=Visualização dos sensores
 Name[pt_br]=Leituras dos sensores
-Name[sk]=Náhľad Senzorov
+Name[sk]=Správa senzorov
 Exec=evisum -s
