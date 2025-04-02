@@ -8,4 +8,7 @@ Section: devel
 Priority: optional
 Homepage: https://github.com/dukeh3/moksha-debug
 Description: Moksha debug scripts
- A set of scripts to make debugging of moksha more easy
+ A set of scripts to make debugging of moksha more easy.
+ .
+ Adds two xsession desktop files one for logging moksha and efl errors 
+ and warnings. The second for remote debugging.

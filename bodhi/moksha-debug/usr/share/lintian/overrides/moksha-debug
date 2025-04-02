@@ -1,1 +1,2 @@
- moksha-debug: no-manual-page
+moksha-debug: no-manual-page
+moksha-debug: desktop-entry-lacks-keywords-entry
