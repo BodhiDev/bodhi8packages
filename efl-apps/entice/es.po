@@ -1,0 +1,79 @@
+# Spanish translations for entice package.
+# This file is put in the public domain.
+#
+# Alejandro Díaz Infante, 2025.
+#
+
+msgid ""
+msgstr ""
+"Project-Id-Version: entice\n"
+"Report-Msgid-Bugs-To: https://git.enlightenment.org/vtorri/entice/issues\n"
+"POT-Creation-Date: 2025-03-26 18:00+0100\n"
+"PO-Revision-Date: 2025-03-26 18:00+0100\n"
+"Last-Translator: Alejandro Díaz Infante\n"
+"Language-Team: Bodhi\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/bin/entice_main.c:152
+msgid "Simple image viewer written with Enlightenment Foundation Libraries."
+msgstr "Sencillo editor de imágenes creado con Enlightenment Foundation Libraries."
+
+#: src/bin/entice_main.c:156
+msgid "Go into the fullscreen mode from start."
+msgstr "Ir al modo pantalla completa desde el inicio."
+
+#: src/bin/entice_main.c:187
+msgid "show program version."
+msgstr "mostrar versión del programa."
+
+#: src/bin/entice_main.c:190
+msgid "show copyright."
+msgstr "mostrar derechos de autor."
+
+#: src/bin/entice_main.c:193
+msgid "show license."
+msgstr "mostrar licencia."
+
+#: src/bin/entice_main.c:196
+msgid "show this message."
+msgstr "mostrar este mensaje."
+
+#: src/bin/entice_main.c:358
+msgid "could not create log domain '"
+msgstr "no se pudo crear dominio de bitácora '"
+
+#: src/bin/entice_main.c:364
+msgid "Efreet support needed."
+msgstr "Se requiere soporte de Efreet."
+
+#: src/bin/entice_main.c:371
+msgid "Cache directory can not be found."
+msgstr "No se pudo encontrar el directorio cache."
+
+#: src/bin/entice_main.c:378
+msgid "Could not parse command line options."
+msgstr "No se pudieron interpretar las opciones de líneas de comando."
+
+#: src/bin/entice_main.c:425
+msgid "could not create main window."
+msgstr "no se pudo crear la ventana principal."
+
+#: src/bin/entice_win.c:224
+msgid "could not allocate memory for Entice struct"
+msgstr "no se pudo reservar memoria para la estructura Entice"
+
+#: src/bin/entice_win.c:231
+msgid "could not load \"config\" configuration."
+msgstr "no se pudo cargar la configuración \"config\"."
+
+#: src/bin/entice_win.c:242
+msgid "could not create elm window."
+msgstr "no se pudo crear la ventana elm."
+
+#: src/bin/entice_win.c:292
+msgid "could not apply the theme."
+msgstr "no se pudo aplicar el tema."
