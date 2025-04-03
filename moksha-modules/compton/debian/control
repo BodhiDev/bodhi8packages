@@ -10,6 +10,7 @@ Rules-Requires-Root: no
 Package: moksha-module-compton
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, picom, moksha
+Recommends: picom-conf
 Description: Compton module for Moksha desktop
  The Compton module restores compositing to the Moksha desktop using Picom.
  .
