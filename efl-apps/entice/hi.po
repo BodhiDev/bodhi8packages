@@ -66,7 +66,7 @@ msgstr "entice struct के लिए मेमोरी आवंटित न
 
 #: src/bin/entice_win.c:231
 msgid "could not load \"config\" configuration."
-msgstr ""/config/" कॉन्फ़िगरेशन लोड नहीं किया जा सका"
+msgstr "\"config\" कॉन्फ़िगरेशन लोड नहीं किया जा सका"
 
 #: src/bin/entice_win.c:242
 msgid "could not create elm window."
