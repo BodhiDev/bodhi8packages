@@ -1,7 +1,7 @@
-# Spanish translations for entice package.
+# German translations for entice package.
 # This file is put in the public domain.
 #
-# Alejandro Díaz Infante, 2025.
+# Christian Becker, 2025.
 #
 msgid ""
 msgstr ""
