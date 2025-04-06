@@ -1,21 +1,21 @@
-# Hindi translation for Ecrire.
+# German translation for Ecrire.
 # This file is put in the public domain.
 #
-# Luee kasaudhan, 2025.
+# Christian Becker, 2025.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: ecrire\n"
 "Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2017-11-06 16:42+0900\n"
-"PO-Revision-Date: 2025-04-02 06:16-0400\n"
-"Last-Translator: Luee kasaudhan\n"
+"PO-Revision-Date: 2025-04-06 13:28+0200\n"
+"Last-Translator: Christian Becker (xpistian) <xpistianbecker@gmail.com>\n"
 "Language-Team: Bodhi\n"
-"Language: hi\n"
+"Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.0.1\n"
+"X-Generator: Poedit 3.5\n"
 
 #: src/bin/main.c:101
 #, c-format
@@ -25,7 +25,9 @@ msgstr "%s%s - %s"
 #: src/bin/main.c:104
 #, c-format
 msgid "%sUntitled %d - %s"
-msgstr "%sशीर्षकहीन %d - %s"
+msgstr ""
+"%sUnbenannt\n"
+" %d - %s"
 
 #: src/bin/main.c:128
 #, c-format
@@ -34,75 +36,71 @@ msgstr "Ln %d, Col %d"
 
 #: src/bin/main.c:737
 msgid "New"
-msgstr "नया"
+msgstr "Neu"
 
 #: src/bin/main.c:738
 msgid "Open"
-msgstr "खोलो"
+msgstr "Öffnen"
 
 #: src/bin/main.c:740 src/bin/ui/alerts.c:64
 msgid "Save"
-msgstr "सहेजें"
+msgstr "Speichern"
 
 #: src/bin/main.c:741
 msgid "Save As"
-msgstr "के रूप रक्षित करें"
+msgstr "Speichern unter"
 
 #: src/bin/main.c:746
 msgid "Undo"
-msgstr "पीछे की तरफ"
+msgstr "Rückgängig"
 
 #: src/bin/main.c:748
 msgid "Redo"
-msgstr "फिर से आगे करो"
+msgstr "Wiederholen"
 
 #: src/bin/main.c:751
 msgid "Cut"
-msgstr "काटें"
+msgstr "Ausschneiden"
 
 #: src/bin/main.c:753
 msgid "Copy"
-msgstr "प्रतिलिपि बनाओ"
+msgstr "Kopieren"
 
 #: src/bin/main.c:755
 msgid "Paste"
-msgstr "यहां पेस्ट करें"
+msgstr "Einfügen"
 
 #: src/bin/main.c:758 src/bin/ui/search_dialog.c:148
 msgid "Search"
-msgstr "खोजें"
+msgstr "Suchen"
 
 #: src/bin/main.c:760 src/bin/ui/goto_dialog.c:60
 msgid "Jump to"
-msgstr "यहाँ जाओ"
+msgstr "Gehe zu"
 
 #: src/bin/main.c:763
 msgid "Settings"
-msgstr "सेटिंग्स"
+msgstr "Einstellungen"
 
 #: src/bin/ui/alerts.c:60
-msgid ""
-"<align=center>Would you like to save changes to document?<br>Any unsaved changes will be "
-"lost."
-msgstr ""
-"<align=center>क्या आप दस्तावेज़ में किए गए परिवर्तनों को सहेजना चाहेंगे?<br>कोई भी सहेजे न गए परिवर्तन "
-"नष्ट हो जाएंगे."
+msgid "<align=center>Would you like to save changes to document?<br>Any unsaved changes will be lost."
+msgstr "<align=center>Änderungen am Dokument speichern?<br>Nicht gespeicherte Änderungen gehen verloren."
 
 #: src/bin/ui/alerts.c:69
 msgid "Discard"
-msgstr "खारिज करना"
+msgstr "Verwerfen"
 
 #: src/bin/ui/alerts.c:74
 msgid "Cancel"
-msgstr "रद्द करना"
+msgstr "Abbrechen"
 
 #: src/bin/ui/font_dialog.c:89
 msgid "Select Font"
-msgstr "फ़ॉन्ट चुनें"
+msgstr "Schriftart wählen"
 
 #: src/bin/ui/font_dialog.c:114
 msgid "Font size:"
-msgstr "फ़ॉन्ट आकार:"
+msgstr "Schriftgröße:"
 
 #: src/bin/ui/font_dialog.c:119
 #, c-format
@@ -111,32 +109,32 @@ msgstr "%.0f pts"
 
 #: src/bin/ui/font_dialog.c:158
 msgid "Use Default Font:"
-msgstr "डिफ़ॉल्ट फ़ॉन्ट का उपयोग करें:"
+msgstr "Standardschriftart verwenden:"
 
 #: src/bin/ui/font_dialog.c:169
 msgid "Set"
-msgstr "तय करे"
+msgstr "Setzen"
 
 #: src/bin/ui/goto_dialog.c:82
 msgid "Jump to line:"
-msgstr "लाइन पर जाएँ:"
+msgstr "Springe in Zeile:"
 
 #: src/bin/ui/goto_dialog.c:106
 msgid "Go"
-msgstr "जाएँ"
+msgstr "Los"
 
 #: src/bin/ui/search_dialog.c:170
 msgid "Search for:"
-msgstr "निम्न को खोजें:"
+msgstr "Suchen nach:"
 
 #: src/bin/ui/search_dialog.c:194
 msgid "Replace with:"
-msgstr "के साथ बदलें:"
+msgstr "Ersetzen durch:"
 
 #: src/bin/ui/search_dialog.c:218
 msgid "Find"
-msgstr "खोजो"
+msgstr "Finden"
 
 #: src/bin/ui/search_dialog.c:226
 msgid "Replace"
-msgstr "बदलें"
+msgstr "Ersetzen"
