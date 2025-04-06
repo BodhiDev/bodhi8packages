@@ -1,0 +1,79 @@
+# German translations for entice package.
+# This file is put in the public domain.
+#
+# Christian Becker, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: entice\n"
+"Report-Msgid-Bugs-To: https://git.enlightenment.org/vtorri/entice/issues\n"
+"POT-Creation-Date: 2025-03-26 18:00+0100\n"
+"PO-Revision-Date: 2025-04-06 13:46+0200\n"
+"Last-Translator: Christian Becker (xpistian) <xpistianbecker@gmail.com>\n"
+"Language-Team: Bodhi\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.5\n"
+
+#: src/bin/entice_main.c:152
+msgid "Simple image viewer written with Enlightenment Foundation Libraries."
+msgstr "Einfacher Bildbetracher geschrieben mit den Enlightenment Foundation Libraries."
+
+#: src/bin/entice_main.c:156
+msgid "Go into the fullscreen mode from start."
+msgstr "Beim Start in den Vollbildmodus gehen."
+
+#: src/bin/entice_main.c:187
+msgid "show program version."
+msgstr "Programmversion anzeigen."
+
+#: src/bin/entice_main.c:190
+msgid "show copyright."
+msgstr "Urheberrechte anzeigen."
+
+#: src/bin/entice_main.c:193
+msgid "show license."
+msgstr "Lizenz anzeigen."
+
+#: src/bin/entice_main.c:196
+msgid "show this message."
+msgstr "Diese Nachricht anzeigen."
+
+#: src/bin/entice_main.c:358
+msgid "could not create log domain '"
+msgstr "Konnte Logdomain nicht erzeugen '"
+
+#: src/bin/entice_main.c:364
+msgid "Efreet support needed."
+msgstr "Unterstützung für Efreet benötigt."
+
+#: src/bin/entice_main.c:371
+msgid "Cache directory can not be found."
+msgstr "Zwischenspeicherverzeichnis nicht gefunden."
+
+#: src/bin/entice_main.c:378
+msgid "Could not parse command line options."
+msgstr "Konnte Kommandozeilenoptionen nicht parsen."
+
+#: src/bin/entice_main.c:425
+msgid "could not create main window."
+msgstr "Konnte Hauptfenster nicht erzeugen."
+
+#: src/bin/entice_win.c:224
+msgid "could not allocate memory for Entice struct"
+msgstr "Speicher für das Entice-struct konnte nicht reserviert werden"
+
+#: src/bin/entice_win.c:231
+msgid "could not load \"config\" configuration."
+msgstr "Konfiguration \"config\" konnte nicht geladen werden."
+
+#: src/bin/entice_win.c:242
+msgid "could not create elm window."
+msgstr "Konnte das elm-Fenster nicht erzeugen."
+
+#: src/bin/entice_win.c:292
+msgid "could not apply the theme."
+msgstr "Thema konnte nicht angewendet werden."
