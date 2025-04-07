@@ -165,8 +165,8 @@ class ARandRWidget(Gtk.DrawingArea):
             apps = apps + user_apps.split(':')
         except AttributeError:
             pass
-
-        moksha_startup = os.path.expanduser('~/.e/e/applications/startup/startupcommands')
+        moksha_config = os.getenv('E_HOME_DIR')
+        moksha_startup = os.path.expanduser(moksha_config + '/applications/startup/startupcommands')
         try:
             os.stat(moksha_startup)
             backup = True
