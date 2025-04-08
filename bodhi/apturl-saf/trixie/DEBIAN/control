@@ -1,10 +1,10 @@
 Package: apturl-saf
-Version: 0.0.1-4
+Version: 0.0.1-5
 Section: utils
 Priority: optional
 Maintainer: Robert (ylee) Wiley <ylee@bodhilinux.com>
 Depends: bash (>=4.3.10), grep (>= 3.7), coreutils (>= 8.32-4.1), zenity, polkitd, pkexec, synaptic
-Recommends: policykit-1-gnome | polkit-kde-agent-1
+Recommends: lxpolkit | policykit-1-gnome | polkit-kde-agent-1 | polkit-1-auth-agent
 Suggests: policykit-desktop-privileges
 Conflicts: apturl, apturl-common
 Replaces: apturl, apturl-common
