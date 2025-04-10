@@ -1,0 +1,12 @@
+#!/usr/bin/make -f
+
+include /usr/share/dpkg/architecture.mk
+
+export DH_VERBOSE = 1
+export QTDIR := /usr/lib/qt6/
+export PATH := $(QTDIR)/bin:$(PATH)
+export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+
+%:
+	dh $@
+

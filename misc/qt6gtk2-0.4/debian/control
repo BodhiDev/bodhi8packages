@@ -1,0 +1,19 @@
+Source: qt6gtk2
+Section: utils
+Priority: optional
+Maintainer: Robert Wiley <ylee@bodhilinux.com>
+Build-Depends: debhelper-compat (= 13),
+ qt6-base-private-dev (>= 6.2), libgl-dev, libgtk2.0-dev, libx11-dev
+Standards-Version: 4.6.1
+Homepage: https://github.com/trialuser02/qt6gtk2
+Rules-Requires-Root: no
+
+Package: qt6gtk2
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}, qt6-qpa-plugins
+Description: GTK+2.0 integration plugins for Qt6
+ Qt6gtk6 ensures qt6 apps better match the installed gtk2 theme.
+ .
+ Environment variable `QT_STYLE_OVERRIDE` should be removed before usage.
+ .
+ Set QT_QPA_PLATFORMTHEME=gtk2.
