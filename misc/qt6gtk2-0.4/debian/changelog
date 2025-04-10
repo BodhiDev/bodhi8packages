@@ -1,17 +1,5 @@
-qt6gtk2 (0.4-1ubuntu1~noble0) noble; urgency=medium
+qt6gtk2 (0.4-1) noble; urgency=medium
 
   * New upstream release.
 
- -- Ilya Kotov <iokotov@astralinux.ru>  Tue, 04 Mar 2025 19:40:32 +0300
-
-qt6gtk2 (0.3-1ubuntu1~noble0) noble; urgency=medium
-
-  * New upstream release.
-
- -- Ilya Kotov <iokotov@astralinux.ru>  Sat, 28 Sep 2024 09:48:48 +0300
-
-qt6gtk2 (0.2-1~noble1) noble; urgency=medium
-
-  * Initial release.
-
- -- Ilya Kotov <iokotov@astralinux.ru>  Thu, 18 Apr 2024 14:42:28 +0300
+ -- Robert Wiley <ylee@bodhilinux.com>  Thu, 10 Apr 2025 15:49:02 -0400
