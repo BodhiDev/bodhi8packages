@@ -1,3 +1,34 @@
+moksha (0.4.1-23) unstable; urgency=low
+
+  * Locale updates
+  * Shelf: gadcon dangling fix, timer_del fix
+  * E port for config save thread
+  * DPI scaling for GTK apps
+  * GTK font scale ratio same as Moksha
+  * KeyBinds viewer: prevent reopening dialog
+  * Evry: signal to edje for border adding
+  * Utils, use xsel first not xclip
+  * Scaling: dbl_to str fnc added
+  * Scale: pointer included
+  * iBar adjacent label missed in init
+  * Pointer should respect scaling
+  * iBar adjacent popup by default
+  * Smart menu orient by default
+  * Actions: send to screen fix
+  * Entry: bg over busy knob fix
+  * Menu: added menus gap possibility
+  * Evry: right click on selector to hide
+  * Fileman EDC: Busy knob Y pos fix
+  
+ -- Robert Wiley <ylee@bodhilinux.com>  Tue, 15 Apr 2025 09:42:28 -0400
+
+moksha (0.4.1-22) unstable; urgency=low
+
+  * Update locals
+  * Popup: a better check if Moksha uses compositor
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Fri, 21 Mar 2025 10:35:12 -0400
+ 
 moksha (0.4.1-21) unstable; urgency=low
 
   * Update locals
