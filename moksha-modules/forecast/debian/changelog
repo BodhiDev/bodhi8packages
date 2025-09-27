@@ -1,4 +1,4 @@
-moksha-module-forecasts (0.1.1-8) noble; urgency=low
+moksha-module-forecast (0.1.1-8) noble; urgency=low
 
   * Locale updates
   * Spinner added for update progress
