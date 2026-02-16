@@ -7,6 +7,9 @@ moksha: shared-library-lacks-prerequisites
 moksha: shared-library-lacks-version
 moksha: library-not-linked-against-libc
 moksha: package-contains-documentation-outside-usr-share-doc
+moksha: font-outside-font-dir
+moksha: font-in-non-font-package
+moksha: truetype-font-prohibits-installable-embedding
 # "Viet Nam"
 moksha: spelling-error-in-binary Nam Name [usr/lib/x86_64-linux-gnu/enlightenment/modules/conf_intl/linux-gnu-x86_64/module.so]
 moksha: hardening-no-fortify-functions
