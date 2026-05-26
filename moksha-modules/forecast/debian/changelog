@@ -1,10 +1,16 @@
-moksha-module-forecast (0.1.1-9) noble; urgency=low
+moksha-module-forecast (0.1.1-10) unstable; urgency=low
+
+  * JSON does not provide observation time now
+
+ -- Robert Wiley <ylee@bodhilinux.com>  Tue, 26 May 2026 01:47:11 -0400
+
+moksha-module-forecasts (0.1.1-9) noble; urgency=low
 
   * JSON cache problem fix again
 
  -- Robert Wiley <ylee@bodhilinux.com>  Sat, 04 Apr 2026 14:30:36 -0400
 
-moksha-module-forecast (0.1.1-8) noble; urgency=low
+moksha-module-forecasts (0.1.1-8) jammy; urgency=low
 
   * Locale updates
   * Spinner added for update progress
@@ -16,39 +22,39 @@ moksha-module-forecast (0.1.1-8) noble; urgency=low
 
  -- Robert Wiley <ylee@bodhilinux.com>  Fri, 26 Sep 2025 15:21:42 -0400
 
-moksha-module-forecast (0.1.1-7) jammy; urgency=low
+moksha-module-forecasts (0.1.1-7) jammy; urgency=low
 
   * Meson Build
   * Locale fix
 
  -- Robert Wiley <ylee@bodhilinux.com>  Tue, 10 Dec 2024 09:40:45 -0500
 
-moksha-module-forecast (0.1.1-6) jammy; urgency=low
+moksha-module-forecasts (0.1.1-6) jammy; urgency=low
 
   * Menu memory ownership fix
 
  -- Robert Wiley <ylee@bodhilinux.com>  Wed, 03 Apr 2024 12:38:55 -0400
 
-moksha-module-forecast (0.1.1-5) jammy; urgency=low
+moksha-module-forecasts (0.1.1-5) jammy; urgency=low
 
   * Belarusian translation added
 
  -- Robert Wiley <ylee@bodhilinux.com>  Sat, 01 Jul 2023 03:07:47 -0400
 
-moksha-module-forecast (0.1.1-4) focal; urgency=medium
+moksha-module-forecasts (0.1.1-4) focal; urgency=medium
 
   * pt localization
 
  -- Robert Wiley <ylee@bodhilinux.com>  Sat, 29 May 2021 16:42:00 -0400
 
-moksha-module-forecast (0.1.1-3) focal; urgency=medium
+moksha-module-forecasts (0.1.1-3) focal; urgency=medium
 
   * Russian Localization added
   * Char var exceeded destination size
 
  -- Robert Wiley <ylee@bodhilinux.com>  Sat, 20 Feb 2021 05:04:43 -0400
 
-moksha-module-forecast (0.1.1-2) focal; urgency=medium
+moksha-module-forecasts (0.1.1-2) focal; urgency=medium
 
   * Localization changes
   * Font Changes
@@ -56,7 +62,7 @@ moksha-module-forecast (0.1.1-2) focal; urgency=medium
  -- Robert Wiley <ylee@bodhilinux.com>  Wed, 02 Dec 2020 07:47:32 -0400
 
 
-moksha-module-forecast (0.1.1-1) focal; urgency=medium
+moksha-module-forecasts (0.1.1-1) focal; urgency=medium
 
   * Better shelf aligning
 
