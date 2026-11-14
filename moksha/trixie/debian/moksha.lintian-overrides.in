@@ -14,3 +14,5 @@ moksha: hardening-no-fortify-functions
 moksha: no-symbols-control-file
 # todo
 moksha: exit-in-shared-library
+moksha: lacks-unversioned-link-to-shared-library
+
